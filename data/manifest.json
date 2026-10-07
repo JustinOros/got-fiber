@@ -1,0 +1,10 @@
+{
+  "generated": null,
+  "asOf": null,
+  "states": [],
+  "contractStates": ["AZ"],
+  "fineRes": 8,
+  "fineShardRes": 5,
+  "coarseRes": 6,
+  "coarseShardRes": 3
+}

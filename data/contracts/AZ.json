@@ -1,0 +1,61 @@
+{
+  "state": "AZ",
+  "programs": [
+    {
+      "name": "Arizona BEAD",
+      "office": "Arizona Commerce Authority",
+      "url": "https://www.azcommerce.com/broadband/initiatives/bead/",
+      "summary": "NTIA approved the final proposal. Fiber is planned for 118,170 locations, with builds scheduled through 2029."
+    }
+  ],
+  "items": [
+    {
+      "id": "az-bead-wecom",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber and LEO satellite",
+      "amount": 195811710,
+      "locations": 84135,
+      "scope": "statewide",
+      "notes": "Largest Arizona BEAD award. Project areas are not mapped here yet.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "az-bead-navajo",
+      "program": "BEAD",
+      "awardee": "Navajo Nation",
+      "status": "awarded",
+      "technology": "Fiber",
+      "scope": "statewide",
+      "notes": "Large provisional award covering Navajo Nation lands. Amount not listed here.",
+      "source": "https://brandergroup.net/?p=25689",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-pima-comcast",
+      "program": "BEAD",
+      "awardee": "Comcast",
+      "status": "awarded",
+      "technology": "Fiber",
+      "scope": "county",
+      "counties": ["Pima"],
+      "notes": "Named in the Pima County memo on the Arizona BEAD final proposal.",
+      "source": "https://content.civicplus.com/api/assets/bbf85f09-7433-4e49-bda3-171ec3187acb",
+      "updated": "2025-08"
+    },
+    {
+      "id": "az-bead-pima-trico",
+      "program": "BEAD",
+      "awardee": "Trico Electric Cooperative",
+      "status": "awarded",
+      "technology": "Fiber",
+      "scope": "county",
+      "counties": ["Pima"],
+      "notes": "Named in the Pima County memo on the Arizona BEAD final proposal.",
+      "source": "https://content.civicplus.com/api/assets/bbf85f09-7433-4e49-bda3-171ec3187acb",
+      "updated": "2025-08"
+    }
+  ]
+}
