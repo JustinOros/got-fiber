@@ -18,6 +18,9 @@ const S = {
   fine: new Map(),
   coarse: new Map(),
   contracts: new Map(),
+  beadFine: new Map(),
+  beadCoarse: new Map(),
+  beadProjects: new Map(),
   search: 0
 };
 
@@ -98,6 +101,7 @@ function initMap() {
   labels.style.zIndex = 450;
   labels.style.pointerEvents = "none";
   L.tileLayer(esri + "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16, pane: "labels" }).addTo(map);
+  S.layers.bead = L.layerGroup().addTo(map);
   S.layers.fiber = L.layerGroup().addTo(map);
   S.layers.contracts = L.layerGroup().addTo(map);
   S.layers.focus = L.layerGroup().addTo(map);
@@ -174,9 +178,72 @@ async function geocode(q) {
   return (await geocodeEsri(q)) || (await geocodeOsm(q));
 }
 
-function shard(cache, dir, id) {
-  if (!cache.has(id)) cache.set(id, getJSON(`data/fiber/${dir}/${id}.json`));
-  return cache.get(id);
+function shard(cache, dir, id, root = "fiber") {
+  const key = `${root}/${dir}/${id}`;
+  if (!cache.has(key)) cache.set(key, getJSON(`data/${key}.json`));
+  return cache.get(key);
+}
+
+async function beadNear(lat, lng) {
+  const m = S.manifest;
+  const cell = h3.latLngToCell(lat, lng, m.fineRes);
+  const ring = h3.gridDisk(cell, 1);
+  const ids = [...new Set(ring.map(c => h3.cellToParent(c, m.fineShardRes)))];
+  const docs = new Map(await Promise.all(ids.map(async id => [id, await shard(S.beadFine, "r8", id, "bead")])));
+  const own = new Set();
+  const next = new Set();
+  for (const c of ring) {
+    const d = docs.get(h3.cellToParent(c, m.fineShardRes));
+    const v = d && d.c[c];
+    if (!v) continue;
+    for (const [gpid] of v) (c === cell ? own : next).add(gpid);
+  }
+  const ids2 = h3.gridDisk(h3.latLngToCell(lat, lng, m.coarseShardRes), 2);
+  const coarse = await Promise.all(ids2.map(id => shard(S.beadCoarse, "r6", id, "bead")));
+  const cells = [];
+  const projects = new Map();
+  for (const d of coarse) {
+    if (!d) continue;
+    for (const [c, v] of Object.entries(d.c)) {
+      const km = haversineKm([lat, lng], h3.cellToLatLng(c));
+      if (km > RADIUS_KM) continue;
+      cells.push({ cell: c, projects: v });
+      for (const [gpid, n] of v) {
+        const e = projects.get(gpid) || { gpid, near: 0, km: Infinity };
+        e.near += n;
+        e.km = Math.min(e.km, km);
+        projects.set(gpid, e);
+      }
+    }
+  }
+  for (const gpid of [...own, ...next]) if (!projects.has(gpid)) projects.set(gpid, { gpid, near: 0, km: 0 });
+  const states = [...new Set([...projects.keys()].map(g => g.split(":")[0]))];
+  const meta = new Map(await Promise.all(states.map(async st => {
+    if (!S.beadProjects.has(st)) S.beadProjects.set(st, getJSON(`data/bead/projects/${st}.json`));
+    return [st, await S.beadProjects.get(st)];
+  })));
+  const list = [];
+  for (const e of projects.values()) {
+    const i = e.gpid.indexOf(":");
+    const st = e.gpid.slice(0, i);
+    const pid = e.gpid.slice(i + 1);
+    const doc = meta.get(st);
+    const v = doc && doc.p[pid];
+    if (!v) continue;
+    list.push({
+      ...e,
+      state: st,
+      status: doc.status,
+      name: v[0],
+      awardee: v[1] || v[0] || "BEAD project",
+      amount: v[2],
+      technology: v[3],
+      locations: v[4],
+      covers: own.has(e.gpid) ? "own" : next.has(e.gpid) ? "next" : null
+    });
+  }
+  list.sort((a, b) => (a.covers === "own" ? 0 : a.covers === "next" ? 1 : 2) - (b.covers === "own" ? 0 : b.covers === "next" ? 1 : 2) || a.km - b.km);
+  return { cells, list, byId: new Map(list.map(p => [p.gpid, p])) };
 }
 
 async function fiberAt(lat, lng) {
@@ -267,21 +334,43 @@ function drawFocus(place, at) {
   }).addTo(g);
 }
 
-function drawRegion(region) {
+function drawRegion(region, bead) {
   const g = S.layers.fiber;
   g.clearLayers();
-  if (!region) return;
-  const max = region.cells.reduce((m, c) => Math.max(m, c.count), 1);
-  for (const c of region.cells) {
+  const b = S.layers.bead;
+  b.clearLayers();
+  const fiberCells = new Map((region ? region.cells : []).map(c => [c.cell, c]));
+  const beadCells = new Map((bead ? bead.cells : []).map(c => [c.cell, c]));
+  const max = region ? region.cells.reduce((m, c) => Math.max(m, c.count), 1) : 1;
+  const beadText = c => {
+    const names = [...new Set(c.projects.map(([gpid]) => bead.byId.get(gpid)).filter(Boolean).map(p => p.awardee))];
+    const n = c.projects.reduce((s, [, k]) => s + k, 0);
+    const shown = names.slice(0, 3).map(esc).join(", ") + (names.length > 3 ? `, +${names.length - 3} more` : "");
+    return `<strong>${fmtInt(n)} BEAD locations</strong>${shown ? `<br>${shown}` : ""}`;
+  };
+  for (const c of beadCells.values()) {
+    const poly = L.polygon(h3.cellToBoundary(c.cell), {
+      color: COLORS.contract,
+      weight: 1.5,
+      dashArray: "3 3",
+      fillColor: COLORS.contract,
+      fillOpacity: 0.16,
+      interactive: !fiberCells.has(c.cell)
+    });
+    if (!fiberCells.has(c.cell)) poly.bindTooltip(beadText(c), { sticky: true });
+    poly.addTo(b);
+  }
+  for (const c of fiberCells.values()) {
     const t = Math.log1p(c.count) / Math.log1p(max);
     const names = c.names.slice(0, 4).map(esc).join(", ") + (c.names.length > 4 ? `, +${c.names.length - 4} more` : "");
+    const extra = beadCells.has(c.cell) ? `<br><br>${beadText(beadCells.get(c.cell))}` : "";
     L.polygon(h3.cellToBoundary(c.cell), {
       color: COLORS.strand,
       weight: 0.5,
       opacity: 0.4,
       fillColor: COLORS.strand,
       fillOpacity: 0.12 + 0.5 * t
-    }).bindTooltip(`<strong>${fmtInt(c.count)} fiber locations</strong><br>${names}`, { sticky: true }).addTo(g);
+    }).bindTooltip(`<strong>${fmtInt(c.count)} fiber locations</strong><br>${names}${extra}`, { sticky: true }).addTo(g);
   }
 }
 
@@ -385,6 +474,51 @@ function providerList(providers) {
   return ul;
 }
 
+function beadSection(bead) {
+  const wrap = el("div", "bead");
+  const covering = bead.list.filter(p => p.covers);
+  const others = bead.list.filter(p => !p.covers);
+  for (const p of covering) {
+    wrap.append(contractCard({
+      awardee: p.awardee,
+      status: p.status,
+      where: p.covers === "own" ? "Covers this address" : "Next to this address",
+      program: "BEAD",
+      technology: p.technology,
+      amount: p.amount,
+      locations: p.locations,
+      notes: p.name && p.name !== p.awardee ? `Project: ${p.name}` : null
+    }));
+  }
+  if (others.length) {
+    const shown = 6;
+    wrap.append(el("h4", null, `BEAD projects within 50 miles (${others.length})`));
+    const ul = el("ul", "list");
+    others.forEach((p, i) => {
+      const li = el("li");
+      if (i >= shown) li.hidden = true;
+      const parts = [`${Math.max(1, Math.round(p.km / KM_PER_MI))} mi`];
+      if (p.amount) parts.push(fmtMoney(p.amount));
+      if (p.technology) parts.push(p.technology);
+      li.append(el("span", null, p.awardee), el("span", "sub", parts.join(", ")));
+      ul.append(li);
+    });
+    wrap.append(ul);
+    if (others.length > shown) {
+      const b = el("button", "more", `Show all ${others.length}`);
+      b.type = "button";
+      b.addEventListener("click", () => {
+        ul.querySelectorAll("li[hidden]").forEach(li => { li.hidden = false; });
+        b.remove();
+      });
+      wrap.append(b);
+    }
+  }
+  const proposed = bead.list.some(p => p.status === "proposed");
+  wrap.append(el("p", "note", `BEAD project areas from state Final Proposals${proposed ? ", some still awaiting NTIA approval" : ""}. Shaded purple on the map.`));
+  return wrap;
+}
+
 function contractCard(it) {
   const card = el("article", "contract" + (it.status === "open" ? " open" : ""));
   card.append(el("h4", null, it.awardee || it.title || "Open bid"));
@@ -452,7 +586,7 @@ function statewideList(items) {
   return wrap;
 }
 
-function render(place, covered, at, region, deals) {
+function render(place, covered, at, region, deals, bead) {
   const root = $("result");
   root.replaceChildren();
 
@@ -492,8 +626,9 @@ function render(place, covered, at, region, deals) {
   const local = deals.items.filter(it => it.where !== "Statewide");
   const wide = deals.items.filter(it => it.where === "Statewide").sort((a, b) => (b.amount || 0) - (a.amount || 0));
   local.forEach(it => cb.append(contractCard(it)));
+  if (bead && bead.list.length) cb.append(beadSection(bead));
   if (wide.length) cb.append(statewideList(wide));
-  if (!local.length && !wide.length) cb.append(el("p", "note", "No broadband contracts or open bids are listed near this address."));
+  if (!local.length && !wide.length && !(bead && bead.list.length)) cb.append(el("p", "note", "No broadband contracts or open bids are listed near this address."));
   for (const p of deals.programs) {
     const n = el("p", "note");
     n.append(`${p.name}: ${p.summary} `);
@@ -530,6 +665,16 @@ function renderMeta() {
   a.rel = "noopener";
   p1.append(a);
   f.append(p1);
+  if (m.beadAsOf) {
+    const p2 = el("p");
+    p2.append(`BEAD project areas: state Final Proposals compiled by `);
+    const b = el("a", null, "BroadbandExpanded");
+    b.href = m.beadSource || "https://broadbandexpanded.com/funding/beadfinalproposaldata";
+    b.target = "_blank";
+    b.rel = "noopener";
+    p2.append(b, `, as of ${m.beadAsOf}.`);
+    f.append(p2);
+  }
   f.append(el("p", null, "Address search by Esri, with OpenStreetMap Nominatim as backup."));
 }
 
@@ -545,12 +690,17 @@ async function check(q) {
       return;
     }
     const covered = S.manifest.states.includes(place.state);
-    const [at, region, deals] = await Promise.all([
+    const hasBead = (S.manifest.beadStates || []).length > 0;
+    const [at, region, deals, bead] = await Promise.all([
       covered ? fiberAt(place.lat, place.lng) : null,
       covered ? fiberRegion(place.lat, place.lng) : null,
-      contractsNear(place)
+      contractsNear(place),
+      hasBead ? beadNear(place.lat, place.lng).catch(() => null) : null
     ]);
-    drawRegion(region);
+    if (bead && (S.manifest.beadStates || []).includes(place.state)) {
+      deals.items = deals.items.filter(it => it.program !== "BEAD");
+    }
+    drawRegion(region, bead);
     drawContracts(deals.items);
     const countyItems = deals.items.filter(it => !it.geometry && place.county && it.where === `${place.county} County`);
     if (countyItems.length) {
@@ -560,7 +710,7 @@ async function check(q) {
     }
     drawFocus(place, at);
     S.map.fitBounds(L.latLng(place.lat, place.lng).toBounds(RADIUS_KM * 2000), { padding: [10, 10] });
-    render(place, covered, at, region, deals);
+    render(place, covered, at, region, deals, bead);
     const url = new URL(location.href);
     url.searchParams.set("q", q);
     history.replaceState(null, "", url);

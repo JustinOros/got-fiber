@@ -39,6 +39,12 @@ pip install -r scripts/requirements.txt
 python scripts/build_fcc.py --local path/to/folder --as-of "June 30, 2025"
 ```
 
+## BEAD project areas
+
+`scripts/build_bead.py` downloads the BEAD Final Proposal data compiled by [BroadbandExpanded](https://broadbandexpanded.com/funding/beadfinalproposaldata) (every state's funded projects and the FCC location IDs in each), then maps those locations to H3 cells using FCC availability files. The page shades those cells purple and lists the projects within 50 miles. It runs as part of the Update fiber data workflow and writes to `data/bead/`.
+
+Please credit BroadbandExpanded if you reuse this data.
+
 ## Adding contracts and bids
 
 Edit or add `data/contracts/XX.json` (XX is the state code). Pushing a change refreshes the manifest automatically.

@@ -224,7 +224,8 @@ def write_manifest(as_of=None, states=None):
     contract_files = sorted((DATA / "contracts").glob("*.json"))
     contract_states = [p.stem for p in contract_files]
     geo_states = [p.stem for p in contract_files if any(i.get("geometry") for i in json.loads(p.read_text(encoding="utf-8")).get("items", []))]
-    m = {
+    m = dict(old)
+    m.update({
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "asOf": as_of if as_of is not None else old.get("asOf"),
         "states": sorted(states) if states is not None else old.get("states", []),
@@ -235,7 +236,7 @@ def write_manifest(as_of=None, states=None):
         "coarseRes": COARSE,
         "coarseShardRes": COARSE_SHARD,
         "source": "FCC National Broadband Map, fixed broadband availability, technology code 50 (fiber to the premises)",
-    }
+    })
     path.write_text(json.dumps(m, indent=2) + "\n", encoding="utf-8")
     log(f"Manifest: states={m['states']} asOf={m['asOf']} contracts={contract_states}")
 
