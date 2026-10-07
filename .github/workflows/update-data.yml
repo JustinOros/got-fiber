@@ -58,4 +58,11 @@ jobs:
             exit 0
           fi
           git commit -m "Update fiber data"
-          git push
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 10))
+          done
+          exit 1
