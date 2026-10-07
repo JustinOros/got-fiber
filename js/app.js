@@ -1,4 +1,5 @@
 const RADIUS_KM = 80.4672;
+const STARLINK_REFERRAL = "https://starlink.com/?referral=RC-788529-72791-32&app_source=share";
 const KM_PER_MI = 1.609344;
 let COLORS = { strand: "#0A8F99", jacket: "#F0B400", ink: "#17212B", contract: "#A23B72" };
 const DARK_QUERY = window.matchMedia("(prefers-color-scheme: dark)");
@@ -290,6 +291,15 @@ function starlinkBlock(place, sl) {
   else if (sl.near) text = `Starlink reports service close by, up to ${fmtSpeed(sl.down)} down and ${fmtSpeed(sl.up)} up.`;
   else text = "Starlink does not report service here.";
   b.append(el("p", null, text));
+  if (STARLINK_REFERRAL && sl && (sl.here || sl.near)) {
+    const r = el("p", "referral");
+    const a = el("a", null, "this referral link");
+    a.href = STARLINK_REFERRAL;
+    a.target = "_blank";
+    a.rel = "noopener sponsored";
+    r.append("Ordering Starlink? Use ", a, " and we both get a free month. ", el("span", "tag", "Referral link"));
+    b.append(r);
+  }
   const n = el("p", "note");
   n.append("Starlink can waitlist areas that are at capacity, so confirm on ");
   const a = el("a", null, "starlink.com");

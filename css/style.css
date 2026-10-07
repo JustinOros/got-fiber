@@ -290,6 +290,18 @@ h1 {
 
 .result a, .meta a { color: var(--strand-deep); }
 
+.referral { margin: 6px 0; font-size: 0.95rem; }
+
+.tag {
+  display: inline-block;
+  padding: 0 6px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  vertical-align: 1px;
+}
+
 .note { margin: 0; font-size: 0.92rem; color: var(--muted); }
 .error { margin: 0; color: var(--error); }
 
