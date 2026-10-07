@@ -1,10 +1,13 @@
 {
-  "generated": null,
+  "generated": "2026-10-07T19:22:07Z",
   "asOf": null,
   "states": [],
-  "contractStates": ["AZ"],
+  "contractStates": [
+    "AZ"
+  ],
   "fineRes": 8,
   "fineShardRes": 5,
   "coarseRes": 6,
-  "coarseShardRes": 3
+  "coarseShardRes": 3,
+  "source": "FCC National Broadband Map, fixed broadband availability, technology code 50 (fiber to the premises)"
 }
