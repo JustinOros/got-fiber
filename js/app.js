@@ -87,11 +87,15 @@ function geomDistanceKm(geom, latlng) {
 
 function initMap() {
   const map = L.map("map", { preferCanvas: true }).setView([34.3, -111.7], 6);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    maxZoom: 19,
-    subdomains: "abcd",
-    attribution: "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> &copy; <a href=\"https://carto.com/attributions\">CARTO</a>"
+  const esri = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
+  L.tileLayer(esri + "World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
+    maxZoom: 16,
+    attribution: "Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors"
   }).addTo(map);
+  const labels = map.createPane("labels");
+  labels.style.zIndex = 450;
+  labels.style.pointerEvents = "none";
+  L.tileLayer(esri + "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16, pane: "labels" }).addTo(map);
   S.layers.fiber = L.layerGroup().addTo(map);
   S.layers.contracts = L.layerGroup().addTo(map);
   S.layers.focus = L.layerGroup().addTo(map);
@@ -108,7 +112,35 @@ function initMap() {
   S.map = map;
 }
 
-async function geocode(q) {
+async function geocodeEsri(q) {
+  const url = "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?" + new URLSearchParams({
+    SingleLine: q,
+    f: "json",
+    outFields: "Match_addr,RegionAbbr,Subregion",
+    sourceCountry: "USA",
+    maxLocations: "1",
+    outSR: "4326"
+  });
+  try {
+    const r = await fetch(url);
+    if (!r.ok) return null;
+    const d = await r.json();
+    const c = (d.candidates || [])[0];
+    if (!c || c.score < 80) return null;
+    const a = c.attributes || {};
+    return {
+      lat: c.location.y,
+      lng: c.location.x,
+      label: a.Match_addr || c.address,
+      state: a.RegionAbbr || null,
+      county: (a.Subregion || "").replace(/\s+County$/i, "").trim()
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function geocodeOsm(q) {
   const url = "https://nominatim.openstreetmap.org/search?" + new URLSearchParams({
     q,
     format: "jsonv2",
@@ -116,20 +148,28 @@ async function geocode(q) {
     limit: "1",
     countrycodes: "us"
   });
-  const r = await fetch(url, { headers: { "Accept-Language": "en" } });
-  if (!r.ok) throw new Error("The address service did not respond. Try again in a minute.");
-  const list = await r.json();
-  if (!list.length) return null;
-  const hit = list[0];
-  const a = hit.address || {};
-  const iso = a["ISO3166-2-lvl4"] || "";
-  return {
-    lat: Number(hit.lat),
-    lng: Number(hit.lon),
-    label: hit.display_name.split(",").slice(0, 4).join(",").trim(),
-    state: iso.startsWith("US-") ? iso.slice(3) : null,
-    county: (a.county || "").replace(/\s+County$/i, "").trim()
-  };
+  try {
+    const r = await fetch(url, { headers: { "Accept-Language": "en" } });
+    if (!r.ok) return null;
+    const list = await r.json();
+    if (!list.length) return null;
+    const hit = list[0];
+    const a = hit.address || {};
+    const iso = a["ISO3166-2-lvl4"] || "";
+    return {
+      lat: Number(hit.lat),
+      lng: Number(hit.lon),
+      label: hit.display_name.split(",").slice(0, 4).join(",").trim(),
+      state: iso.startsWith("US-") ? iso.slice(3) : null,
+      county: (a.county || "").replace(/\s+County$/i, "").trim()
+    };
+  } catch {
+    return null;
+  }
+}
+
+async function geocode(q) {
+  return (await geocodeEsri(q)) || (await geocodeOsm(q));
 }
 
 function shard(cache, dir, id) {
@@ -412,7 +452,7 @@ function renderMeta() {
   a.rel = "noopener";
   p1.append(a);
   f.append(p1);
-  f.append(el("p", null, "Address search by OpenStreetMap Nominatim."));
+  f.append(el("p", null, "Address search by Esri, with OpenStreetMap Nominatim as backup."));
 }
 
 async function check(q) {
