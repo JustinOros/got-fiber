@@ -5,22 +5,137 @@
       "name": "Arizona BEAD",
       "office": "Arizona Commerce Authority",
       "url": "https://www.azcommerce.com/broadband/initiatives/bead/",
-      "summary": "NTIA approved the final proposal. Fiber is planned for 118,170 locations, with builds scheduled through 2029."
+      "summary": "NTIA approved the final proposal. About $967M in awards, with fiber planned for 118,170 locations and builds scheduled through 2029."
     }
   ],
   "items": [
     {
-      "id": "az-bead-wecom",
+      "id": "az-bead-wecom-yavapai",
       "program": "BEAD",
       "awardee": "Wecom Fiber",
       "status": "awarded",
-      "technology": "Fiber and LEO satellite",
-      "amount": 195811710,
-      "locations": 84135,
-      "scope": "statewide",
-      "notes": "Largest Arizona BEAD award. Project areas are not mapped here yet.",
+      "technology": "Fiber",
+      "amount": 49500000,
+      "locations": 13000,
+      "scope": "county",
+      "counties": [
+        "Yavapai"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
       "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
-      "updated": "2026-02"
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-coconino",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 42300000,
+      "locations": 10500,
+      "scope": "county",
+      "counties": [
+        "Coconino"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-mohave",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 24500000,
+      "locations": 6500,
+      "scope": "county",
+      "counties": [
+        "Mohave"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-navajo",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 21000000,
+      "locations": 6600,
+      "scope": "county",
+      "counties": [
+        "Navajo"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-pinal",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 20000000,
+      "locations": 19000,
+      "scope": "county",
+      "counties": [
+        "Pinal"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-maricopa",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 16500000,
+      "locations": 6100,
+      "scope": "county",
+      "counties": [
+        "Maricopa"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-gila",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 16700000,
+      "locations": 3200,
+      "scope": "county",
+      "counties": [
+        "Gila"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
+    },
+    {
+      "id": "az-bead-wecom-la-paz",
+      "program": "BEAD",
+      "awardee": "Wecom Fiber",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 4800000,
+      "locations": 700,
+      "scope": "county",
+      "counties": [
+        "La Paz"
+      ],
+      "notes": "Part of Wecom Fiber's $195.8M Arizona BEAD award. Location count is approximate. Builds scheduled 2026 to 2029.",
+      "source": "https://brandergroup.net/2025/12/wecom-fiber-wins-195m-bead-fiber-fund-in-arizona/",
+      "updated": "2025-12"
     },
     {
       "id": "az-bead-navajo",
@@ -40,7 +155,9 @@
       "status": "awarded",
       "technology": "Fiber",
       "scope": "county",
-      "counties": ["Pima"],
+      "counties": [
+        "Pima"
+      ],
       "notes": "Named in the Pima County memo on the Arizona BEAD final proposal.",
       "source": "https://content.civicplus.com/api/assets/bbf85f09-7433-4e49-bda3-171ec3187acb",
       "updated": "2025-08"
@@ -52,10 +169,54 @@
       "status": "awarded",
       "technology": "Fiber",
       "scope": "county",
-      "counties": ["Pima"],
+      "counties": [
+        "Pima"
+      ],
       "notes": "Named in the Pima County memo on the Arizona BEAD final proposal.",
       "source": "https://content.civicplus.com/api/assets/bbf85f09-7433-4e49-bda3-171ec3187acb",
       "updated": "2025-08"
+    },
+    {
+      "id": "az-cochise-rdof",
+      "program": "RDOF",
+      "title": "RDOF award in Cochise County",
+      "status": "awarded",
+      "technology": "Varies by awardee",
+      "scope": "county",
+      "counties": [
+        "Cochise"
+      ],
+      "notes": "In 2024 the county reported the RDOF awardee had made limited progress and was at high risk of default, and asked the state to open those areas to BEAD funding.",
+      "source": "https://public.destinyhosted.com/cochidocs/2024/BOS/20240813_2795/7861%5F7861%5FWaiver%5FRequest%5Fto%5FState%5FBB%5FDirector%2Epdf",
+      "updated": "2024-08"
+    },
+    {
+      "id": "az-cochise-allo",
+      "program": "BEAD application",
+      "awardee": "Allo Fiber",
+      "status": "proposed",
+      "technology": "Fiber",
+      "scope": "county",
+      "counties": [
+        "Cochise"
+      ],
+      "notes": "Applied for Arizona BEAD funding with a Cochise County letter of support. Award not confirmed here.",
+      "source": "https://public.destinyhosted.com/cochidocs/2024/BOS/20240910_2806/7912%5FBEAD%5FFunding%5FLetter%5Fof%5FSupport%2Epdf",
+      "updated": "2024-09"
+    },
+    {
+      "id": "az-cochise-ssvec",
+      "program": "BEAD application",
+      "awardee": "Sulphur Springs Valley Electric Cooperative",
+      "status": "proposed",
+      "technology": "Fiber",
+      "scope": "county",
+      "counties": [
+        "Cochise"
+      ],
+      "notes": "Joint fiber application with Cochise County for BEAD and other grants. Award not confirmed here.",
+      "source": "https://public.destinyhosted.com/cochidocs/2025/BOS/20250107_2863/8110_SSVEC_BEAD_Funding_Letter_of_Support.pdf",
+      "updated": "2025-01"
     }
   ]
 }
