@@ -1,3 +1,4 @@
 .cache/
 __pycache__/
 *.part
+.DS_Store
