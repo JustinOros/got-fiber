@@ -1,0 +1,133 @@
+{
+  "state": "AK",
+  "programs": [
+    {
+      "name": "Alaska Broadband Office",
+      "summary": "BEAD allocation about $1 billion. Provisional awards total $483,201,643. Project areas are not mapped here yet.",
+      "url": "https://www.commerce.alaska.gov/web/abo/",
+      "office": "Program page"
+    }
+  ],
+  "items": [
+    {
+      "id": "ak-bead-gci-communication-corp",
+      "program": "BEAD",
+      "awardee": "GCI Communication Corp.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 140491997,
+      "locations": 2458,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-dena-nena-henash",
+      "program": "BEAD",
+      "awardee": "Dena Nena Henash",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 91380240,
+      "locations": 1008,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-matanuska-telecom-association-inc",
+      "program": "BEAD",
+      "awardee": "Matanuska Telecom Association Inc.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 85370236,
+      "locations": 8975,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-quintillion-subsea-operations-llc",
+      "program": "BEAD",
+      "awardee": "Quintillion Subsea Operations LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 70160688,
+      "locations": 624,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-alaska-communications-systems-holdings",
+      "program": "BEAD",
+      "awardee": "Alaska Communications Systems Holdings",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 47497769,
+      "locations": 6407,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-igiugig-village",
+      "program": "BEAD",
+      "awardee": "Igiugig Village",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 25825340,
+      "locations": 524,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-copper-valley-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Copper Valley Telephone Cooperative Inc.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 10375040,
+      "locations": 377,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-alaska-connects",
+      "program": "BEAD",
+      "awardee": "Alaska Connects",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 7364750,
+      "locations": 331,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-alaska-telephone-company",
+      "program": "BEAD",
+      "awardee": "Alaska Telephone Company",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 3799840,
+      "locations": 220,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ak-bead-ap-t-wireless-inc",
+      "program": "BEAD",
+      "awardee": "AP&T Wireless Inc.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 485743,
+      "locations": 61,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

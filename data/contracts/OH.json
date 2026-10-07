@@ -1,0 +1,251 @@
+{
+  "state": "OH",
+  "programs": [
+    {
+      "name": "BroadbandOhio",
+      "summary": "BEAD allocation about $794 million. Provisional awards total $277,114,388. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "oh-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 80288371,
+      "locations": 9930,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 51663130,
+      "locations": 31264,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-aristotle-unified-communications",
+      "program": "BEAD",
+      "awardee": "Aristotle Unified Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 31323078,
+      "locations": 4142,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 24635706,
+      "locations": 6344,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-south-central-power-company",
+      "program": "BEAD",
+      "awardee": "South Central Power Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 15726087,
+      "locations": 4084,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-ohio-gig-llc",
+      "program": "BEAD",
+      "awardee": "Ohio Gig LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 11184155,
+      "locations": 1286,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-bascom-communications",
+      "program": "BEAD",
+      "awardee": "Bascom Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 8901082,
+      "locations": 2144,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-smart-way-communications-llc",
+      "program": "BEAD",
+      "awardee": "Smart Way Communications LLC",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 7807633,
+      "locations": 2021,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 7364884,
+      "locations": 835,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 6741261,
+      "locations": 981,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-watch-communications",
+      "program": "BEAD",
+      "awardee": "WATCH Communications",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 6251140,
+      "locations": 1274,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-frontier-north-inc",
+      "program": "BEAD",
+      "awardee": "Frontier North Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5805222,
+      "locations": 939,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-armstrong-telecommunications",
+      "program": "BEAD",
+      "awardee": "Armstrong Telecommunications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5295820,
+      "locations": 739,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-telephone-service-company",
+      "program": "BEAD",
+      "awardee": "Telephone Service Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5008498,
+      "locations": 1592,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-at-t-ohio-bell-telephone-company",
+      "program": "BEAD",
+      "awardee": "AT&T (Ohio Bell Telephone Company)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3774376,
+      "locations": 1170,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-paulding-putnam-electric-cooperative",
+      "program": "BEAD",
+      "awardee": "Paulding Putnam Electric Cooperative",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2906231,
+      "locations": 677,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-skymesh-inc",
+      "program": "BEAD",
+      "awardee": "Skymesh Inc.",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 1323181,
+      "locations": 704,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-north-coast-wireless-communications-llc",
+      "program": "BEAD",
+      "awardee": "North Coast Wireless Communications LLC",
+      "status": "provisional",
+      "technology": "HFC",
+      "amount": 568813,
+      "locations": 511,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-imagine-networks",
+      "program": "BEAD",
+      "awardee": "Imagine Networks",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 299570,
+      "locations": 65,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "oh-bead-metalink-technologies-inc",
+      "program": "BEAD",
+      "awardee": "MetaLINK Technologies Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 246150,
+      "locations": 86,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

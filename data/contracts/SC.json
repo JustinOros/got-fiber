@@ -1,0 +1,186 @@
+{
+  "state": "SC",
+  "programs": [
+    {
+      "name": "South Carolina Broadband Office",
+      "summary": "BEAD allocation about $551 million. Provisional awards total $41,358,389. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "sc-bead-zitel-llc",
+      "program": "BEAD",
+      "awardee": "ZiTEL LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 8118544,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-truvista-communications-inc",
+      "program": "BEAD",
+      "awardee": "Truvista Communications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 6247010,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 5337600,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-at-t-bellsouth-telecommunications-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (BellSouth Telecommunications LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4209849,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "HFC",
+      "amount": 3640032,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3611535,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-intus-smartcities-inc",
+      "program": "BEAD",
+      "awardee": "INTUS Smartcities Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2553850,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2079000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-home-telephone-ilec-llc",
+      "program": "BEAD",
+      "awardee": "Home Telephone ILEC LLC",
+      "status": "provisional",
+      "amount": 1508065,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-comporium-inc",
+      "program": "BEAD",
+      "awardee": "Comporium Inc.",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 1275523,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-aiken-electric-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Aiken Electric Cooperative Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1065267,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-horry-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Horry Telephone Cooperative Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 806400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-blue-ridge-electric-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Blue Ridge Electric Cooperative Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 401004,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-ripple-fiber-inc",
+      "program": "BEAD",
+      "awardee": "Ripple Fiber Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 296227,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-newberry-electric-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Newberry Electric Cooperative Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 198083,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sc-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 10400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

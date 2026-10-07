@@ -1,0 +1,166 @@
+{
+  "state": "WY",
+  "programs": [
+    {
+      "name": "Wyoming Business Council Broadband",
+      "summary": "BEAD allocation about $348 million. Provisional awards total $198,442,261. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "wy-bead-tri-county-telephone-association-inc",
+      "program": "BEAD",
+      "awardee": "Tri County Telephone Association Inc.",
+      "status": "provisional",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 63482906,
+      "locations": 5629,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-inventive-wireless-of-nebraska-llc",
+      "program": "BEAD",
+      "awardee": "Inventive Wireless of Nebraska LLC",
+      "status": "provisional",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 35167936,
+      "locations": 4181,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-silver-star-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Silver Star Telephone Company Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 31536373,
+      "locations": 1563,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-nextlink-internet-amg-technology-investment-grou",
+      "program": "BEAD",
+      "awardee": "Nextlink Internet (AMG Technology Investment Group)",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 23345684,
+      "locations": 6737,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-northern-arapaho-tribal-industries",
+      "program": "BEAD",
+      "awardee": "Northern Arapaho Tribal Industries",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 12500000,
+      "locations": 2067,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 9659703,
+      "locations": 15061,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-rt-communications-llc",
+      "program": "BEAD",
+      "awardee": "RT Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4686742,
+      "locations": 190,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-diamond-communications-llc",
+      "program": "BEAD",
+      "awardee": "Diamond Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4424364,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-mountain-west-technologies-corp",
+      "program": "BEAD",
+      "awardee": "Mountain West Technologies Corp.",
+      "status": "provisional",
+      "technology": "Fiber/Unlicensed fixed wireless",
+      "amount": 4023036,
+      "locations": 263,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-range-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Range Telephone Cooperative Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3626794,
+      "locations": 146,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-visionary-communications-llc",
+      "program": "BEAD",
+      "awardee": "Visionary Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 3261164,
+      "locations": 1071,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-union-telephone-company",
+      "program": "BEAD",
+      "awardee": "Union Telephone Company",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 1715794,
+      "locations": 1043,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wy-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1011765,
+      "locations": 600,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

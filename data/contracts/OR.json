@@ -1,0 +1,220 @@
+{
+  "state": "OR",
+  "programs": [
+    {
+      "name": "Oregon Broadband Office",
+      "summary": "BEAD allocation about $689 million. Provisional awards total $620,728,287. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "or-bead-stimulus-technologies-of-oregon-llc",
+      "program": "BEAD",
+      "awardee": "Stimulus Technologies of Oregon LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 188283308,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-astound-networks-oregon-llc",
+      "program": "BEAD",
+      "awardee": "Astound Networks Oregon LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 111676890,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 107838207,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-douglas-services-inc",
+      "program": "BEAD",
+      "awardee": "Douglas Services Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 31576000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-windwave-technologies-inc",
+      "program": "BEAD",
+      "awardee": "Windwave Technologies Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 29864616,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-northwest-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Northwest Fiber LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 28004198,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 26603500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-siuslaw-broadband-llc",
+      "program": "BEAD",
+      "awardee": "Siuslaw Broadband LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 24618014,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-consumers-power-inc",
+      "program": "BEAD",
+      "awardee": "Consumers Power Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 17763599,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-qualitylife-intergovernmental-agency",
+      "program": "BEAD",
+      "awardee": "Qualitylife Intergovernmental Agency",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 10442267,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-county-of-columbia",
+      "program": "BEAD",
+      "awardee": "County of Columbia",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 9517400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-alyrica-networks-inc",
+      "program": "BEAD",
+      "awardee": "Alyrica Networks Inc.",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 6067142,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-farmers-mutual-telephone-co",
+      "program": "BEAD",
+      "awardee": "Farmers Mutual Telephone Co.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 6047000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-county-of-gilliam",
+      "program": "BEAD",
+      "awardee": "County of Gilliam",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5515542,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-blue-mountain-networks-llc",
+      "program": "BEAD",
+      "awardee": "Blue Mountain Networks LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5179618,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-pioneer-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "Pioneer Telephone Cooperative",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4369133,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-e4-connect-inc",
+      "program": "BEAD",
+      "awardee": "E4 Connect Inc.",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 4238206,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-hood-river-electric-cooperative",
+      "program": "BEAD",
+      "awardee": "Hood River Electric Cooperative",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2593261,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "or-bead-hunter-communications-technologies-llc",
+      "program": "BEAD",
+      "awardee": "Hunter Communications & Technologies LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 580385,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -140,7 +140,25 @@ h1 {
 }
 
 .list li:first-child { border-top: 0; }
-.list .sub { flex-shrink: 0; font-size: 0.9rem; color: var(--muted); }
+.list li[hidden] { display: none; }
+.list .sub { flex-shrink: 0; max-width: 55%; font-size: 0.9rem; color: var(--muted); text-align: right; }
+
+.statewide { margin-top: 6px; }
+.statewide h4 { margin: 0 0 4px; font-size: 1rem; }
+.statewide .note { margin-bottom: 6px; }
+
+.more {
+  margin: 4px 0 8px;
+  padding: 0;
+  font: 600 0.9rem var(--font);
+  color: var(--strand-deep);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.more:focus-visible { outline: 3px solid var(--jacket); outline-offset: 2px; }
 
 .contract { margin: 0 0 14px; padding: 2px 0 4px 12px; border-left: 3px solid var(--contract); }
 .contract.open { border-left-color: var(--jacket); }

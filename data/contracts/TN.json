@@ -1,0 +1,198 @@
+{
+  "state": "TN",
+  "programs": [
+    {
+      "name": "Tennessee BEAD Program",
+      "summary": "BEAD allocation about $813 million. Provisional awards total $203,311,189. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "tn-bead-at-t-bellsouth-telecommunications-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (BellSouth Telecommunications LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 48829963,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "HFC",
+      "amount": 38307750,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-volunteer-energy-cooperative",
+      "program": "BEAD",
+      "awardee": "Volunteer Energy Cooperative",
+      "status": "provisional",
+      "technology": "Fiber/LEO satellite",
+      "amount": 18773211,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-united-communications",
+      "program": "BEAD",
+      "awardee": "United Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 18139092,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-zitel",
+      "program": "BEAD",
+      "awardee": "ZiTEL",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 18079429,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 14338845,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-dickson-electric-department",
+      "program": "BEAD",
+      "awardee": "Dickson Electric Department",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 11691894,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-greeneville-energy-authority",
+      "program": "BEAD",
+      "awardee": "Greeneville Energy Authority",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 10989173,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-ben-lomand-communications-llc",
+      "program": "BEAD",
+      "awardee": "Ben Lomand Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5267843,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-west-kentucky-rural-telephone-cooperative-corpor",
+      "program": "BEAD",
+      "awardee": "West Kentucky Rural Telephone Cooperative Corporation Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3984017,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-fayetteville-public-utilities",
+      "program": "BEAD",
+      "awardee": "Fayetteville Public Utilities",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3919095,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-milan-public-utilities-authority",
+      "program": "BEAD",
+      "awardee": "Milan Public Utilities Authority",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2680054,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-loretto-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Loretto Telephone Company Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2659845,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2544400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-brightridge-johnson-city-energy-authority",
+      "program": "BEAD",
+      "awardee": "BrightRidge (Johnson City Energy Authority)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1650052,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1260000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tn-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 196525,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

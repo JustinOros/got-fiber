@@ -1,0 +1,189 @@
+{
+  "state": "NV",
+  "programs": [
+    {
+      "name": "Nevada Governor's Office of Science, Innovation and Technology",
+      "summary": "BEAD allocation about $417 million. Provisional awards total $169,749,806. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "nv-bead-skyfiber-internet",
+      "program": "BEAD",
+      "awardee": "SkyFiber Internet",
+      "status": "provisional",
+      "amount": 57548325,
+      "locations": 4684,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-stimulus-technologies-of-nevada-llc",
+      "program": "BEAD",
+      "awardee": "Stimulus Technologies of Nevada LLC",
+      "status": "provisional",
+      "amount": 36455824,
+      "locations": 3361,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-anthem-broadband-of-nevada",
+      "program": "BEAD",
+      "awardee": "Anthem Broadband of Nevada",
+      "status": "provisional",
+      "amount": 20236342,
+      "locations": 1132,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-commnet-of-nevada-llc",
+      "program": "BEAD",
+      "awardee": "Commnet of Nevada LLC",
+      "status": "provisional",
+      "amount": 9421674,
+      "locations": 2835,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-at-t",
+      "program": "BEAD",
+      "awardee": "AT&T",
+      "status": "provisional",
+      "amount": 8099797,
+      "locations": 1336,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-rural-telephone-company",
+      "program": "BEAD",
+      "awardee": "Rural Telephone Company",
+      "status": "provisional",
+      "amount": 5744054,
+      "locations": 590,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-satview-broadband-ltd",
+      "program": "BEAD",
+      "awardee": "Satview Broadband Ltd",
+      "status": "provisional",
+      "amount": 5678217,
+      "locations": 2270,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-dts-fiber-digital-technology-solutions",
+      "program": "BEAD",
+      "awardee": "DTS Fiber (Digital Technology Solutions)",
+      "status": "provisional",
+      "amount": 5411316,
+      "locations": 545,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-reno-sparks-indian-colony",
+      "program": "BEAD",
+      "awardee": "Reno Sparks Indian Colony",
+      "status": "provisional",
+      "amount": 4000000,
+      "locations": 159,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-valley-electric-association-inc",
+      "program": "BEAD",
+      "awardee": "Valley Electric Association Inc.",
+      "status": "provisional",
+      "amount": 3892670,
+      "locations": 1285,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-e4-connect",
+      "program": "BEAD",
+      "awardee": "E4 Connect",
+      "status": "provisional",
+      "amount": 3690469,
+      "locations": 470,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-beehive-broadband",
+      "program": "BEAD",
+      "awardee": "Beehive Broadband",
+      "status": "provisional",
+      "amount": 3472019,
+      "locations": 154,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-amazon-kuiper-commercial-services",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 3256589,
+      "locations": 5027,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2408250,
+      "locations": 2803,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-moapa-valley-telephone-company",
+      "program": "BEAD",
+      "awardee": "Moapa Valley Telephone Company",
+      "status": "provisional",
+      "amount": 362954,
+      "locations": 74,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nv-bead-welink-communications-inc",
+      "program": "BEAD",
+      "awardee": "WeLink Communications Inc.",
+      "status": "provisional",
+      "amount": 71306,
+      "locations": 2,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

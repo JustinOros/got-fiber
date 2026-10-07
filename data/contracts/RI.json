@@ -1,0 +1,42 @@
+{
+  "state": "RI",
+  "programs": [
+    {
+      "name": "Connect RI",
+      "summary": "BEAD allocation about $109 million. Provisional awards total $16,137,983. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ri-bead-truaccess-networks-llc",
+      "program": "BEAD",
+      "awardee": "TruAccess Networks LLC",
+      "status": "provisional",
+      "amount": 13516828,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ri-bead-verizon",
+      "program": "BEAD",
+      "awardee": "Verizon",
+      "status": "provisional",
+      "amount": 2450155,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ri-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 171000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

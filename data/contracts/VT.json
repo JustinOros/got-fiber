@@ -1,0 +1,87 @@
+{
+  "state": "VT",
+  "programs": [
+    {
+      "name": "Vermont Community Broadband Board",
+      "summary": "BEAD allocation about $229 million. Provisional awards total $118,993,040. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "vt-bead-nek-community-broadband-nekcv",
+      "program": "BEAD",
+      "awardee": "NEK Community Broadband (NEKCV)",
+      "status": "provisional",
+      "technology": "Fiber/Fixed wireless",
+      "amount": 93625421,
+      "locations": 10023,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "vt-bead-maple-broadband",
+      "program": "BEAD",
+      "awardee": "Maple Broadband",
+      "status": "provisional",
+      "amount": 9269083,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "vt-bead-consolidated-communications",
+      "program": "BEAD",
+      "awardee": "Consolidated Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 9093470,
+      "locations": 4266,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "vt-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "amount": 3306255,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "vt-bead-dvfiber",
+      "program": "BEAD",
+      "awardee": "DVFiber",
+      "status": "provisional",
+      "amount": 2195268,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "vt-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1377000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "vt-bead-vtel",
+      "program": "BEAD",
+      "awardee": "VTel",
+      "status": "provisional",
+      "amount": 126543,
+      "locations": 11,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "state": "NY",
+  "programs": [
+    {
+      "name": "ConnectALL Office",
+      "summary": "BEAD allocation about $665 million. Provisional awards total $391,097,989. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ny-bead-cbn-geneva-llc",
+      "program": "BEAD",
+      "awardee": "CBN Geneva LLC",
+      "status": "provisional",
+      "technology": "Fiber/Fixed wireless",
+      "amount": 121187012,
+      "locations": 22052,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-archtop-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Archtop Fiber LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 78640161,
+      "locations": 2511,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-verizon-new-york-inc",
+      "program": "BEAD",
+      "awardee": "Verizon New York Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 64500823,
+      "locations": 4017,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 27038640,
+      "locations": 2919,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "technology": "Fiber/Fixed wireless",
+      "amount": 25489512,
+      "locations": 11819,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-reasnor-telephone-company-llc",
+      "program": "BEAD",
+      "awardee": "Reasnor Telephone Company LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 23232915,
+      "locations": 904,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 20422500,
+      "locations": 13615,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-citizens-telecommunications-of-new-york-inc",
+      "program": "BEAD",
+      "awardee": "Citizens Telecommunications of New York Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 13273290,
+      "locations": 1014,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 11498589,
+      "locations": 390,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-consolidated-communications-enterprise-services-",
+      "program": "BEAD",
+      "awardee": "Consolidated Communications Enterprise Services Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5454547,
+      "locations": 1083,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ny-bead-planet-fiber-ny-llc",
+      "program": "BEAD",
+      "awardee": "Planet Fiber NY LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 360000,
+      "locations": 16,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

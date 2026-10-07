@@ -1,0 +1,263 @@
+{
+  "state": "PA",
+  "programs": [
+    {
+      "name": "Pennsylvania BEAD Program",
+      "summary": "BEAD allocation about $1.16 billion. Provisional awards total $793,494,747. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "pa-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 229299305,
+      "locations": 20835,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-verizon",
+      "program": "BEAD",
+      "awardee": "Verizon",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 121016542,
+      "locations": 15588,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-coreconnect-coconet-inc",
+      "program": "BEAD",
+      "awardee": "CoreConnect (CocoNet Inc.)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 90744518,
+      "locations": 10337,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-ecommunity-holdings-llc",
+      "program": "BEAD",
+      "awardee": "eCommunity Holdings LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 83448879,
+      "locations": 14311,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-central-bradford-progress-authority",
+      "program": "BEAD",
+      "awardee": "Central Bradford Progress Authority",
+      "status": "provisional",
+      "technology": "Fiber/Fixed wireless",
+      "amount": 73701268,
+      "locations": 6467,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 40112441,
+      "locations": 9135,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 39706713,
+      "locations": 15370,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-commonwealth-telephone-company-llc",
+      "program": "BEAD",
+      "awardee": "Commonwealth Telephone Company LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 30297375,
+      "locations": 3918,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-armstrong-telecommunications-inc",
+      "program": "BEAD",
+      "awardee": "Armstrong Telecommunications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 19926183,
+      "locations": 3432,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 10847400,
+      "locations": 18079,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-centre-wisp-venture-company-llc",
+      "program": "BEAD",
+      "awardee": "Centre WISP Venture Company LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 10331660,
+      "locations": 1863,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-claverack-communications-llc",
+      "program": "BEAD",
+      "awardee": "Claverack Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 9045730,
+      "locations": 1247,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 8099966,
+      "locations": 4796,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-talkie-communications-inc",
+      "program": "BEAD",
+      "awardee": "Talkie Communications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 7265015,
+      "locations": 755,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-county-of-mckean",
+      "program": "BEAD",
+      "awardee": "County of McKean",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 5971733,
+      "locations": 685,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-intus-smartcities-inc",
+      "program": "BEAD",
+      "awardee": "INTUS Smartcities Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4281461,
+      "locations": 629,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-archtop-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Archtop Fiber LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3772466,
+      "locations": 672,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-upward-broadband-llc",
+      "program": "BEAD",
+      "awardee": "Upward Broadband LLC",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 3126526,
+      "locations": 1486,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-vitalink-llc",
+      "program": "BEAD",
+      "awardee": "VitaLink LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1407965,
+      "locations": 188,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-consolidated-communications-enterprise-services-",
+      "program": "BEAD",
+      "awardee": "Consolidated Communications Enterprise Services LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1074372,
+      "locations": 136,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "pa-bead-advanced-telephone-system-inc",
+      "program": "BEAD",
+      "awardee": "Advanced Telephone System Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 17229,
+      "locations": 12,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

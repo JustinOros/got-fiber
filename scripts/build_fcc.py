@@ -221,12 +221,15 @@ def write_shards(total):
 def write_manifest(as_of=None, states=None):
     path = DATA / "manifest.json"
     old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
-    contract_states = sorted(p.stem for p in (DATA / "contracts").glob("*.json"))
+    contract_files = sorted((DATA / "contracts").glob("*.json"))
+    contract_states = [p.stem for p in contract_files]
+    geo_states = [p.stem for p in contract_files if any(i.get("geometry") for i in json.loads(p.read_text(encoding="utf-8")).get("items", []))]
     m = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "asOf": as_of if as_of is not None else old.get("asOf"),
         "states": sorted(states) if states is not None else old.get("states", []),
         "contractStates": contract_states,
+        "contractGeoStates": geo_states,
         "fineRes": FINE,
         "fineShardRes": FINE_SHARD,
         "coarseRes": COARSE,

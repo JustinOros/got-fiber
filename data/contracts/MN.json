@@ -1,0 +1,278 @@
+{
+  "state": "MN",
+  "programs": [
+    {
+      "name": "Minnesota DEED Office of Broadband Development",
+      "summary": "BEAD allocation about $652 million. Provisional awards total $377,046,315. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "mn-bead-midco",
+      "program": "BEAD",
+      "awardee": "Midco",
+      "status": "provisional",
+      "amount": 79433617,
+      "locations": 12441,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-east-central-energy-fiber",
+      "program": "BEAD",
+      "awardee": "East Central Energy Fiber",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 38197738,
+      "locations": 6704,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-mcc-broadband-data",
+      "program": "BEAD",
+      "awardee": "MCC Broadband Data",
+      "status": "provisional",
+      "amount": 36966580,
+      "locations": 4577,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "amount": 31849085,
+      "locations": 2760,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-nuvera",
+      "program": "BEAD",
+      "awardee": "Nuvera",
+      "status": "provisional",
+      "amount": 27310212,
+      "locations": 1943,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-ctc",
+      "program": "BEAD",
+      "awardee": "CTC",
+      "status": "provisional",
+      "amount": 23733558,
+      "locations": 2219,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "amount": 20145556,
+      "locations": 10632,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-mienergy",
+      "program": "BEAD",
+      "awardee": "MiEnergy",
+      "status": "provisional",
+      "amount": 19961130,
+      "locations": 923,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-meeker-cooperative-light-power-association",
+      "program": "BEAD",
+      "awardee": "Meeker Cooperative Light & Power Association",
+      "status": "provisional",
+      "amount": 18393143,
+      "locations": 2904,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-frontier-internet",
+      "program": "BEAD",
+      "awardee": "Frontier Internet",
+      "status": "provisional",
+      "amount": 14283707,
+      "locations": 1778,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-federated-rural-electric-association",
+      "program": "BEAD",
+      "awardee": "Federated Rural Electric Association",
+      "status": "provisional",
+      "amount": 13181452,
+      "locations": 812,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 11083294,
+      "locations": 18295,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "amount": 8483461,
+      "locations": 1449,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-red-river-communications",
+      "program": "BEAD",
+      "awardee": "Red River Communications",
+      "status": "provisional",
+      "amount": 7040811,
+      "locations": 175,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-paul-bunyan-communications",
+      "program": "BEAD",
+      "awardee": "Paul Bunyan Communications",
+      "status": "provisional",
+      "amount": 4593461,
+      "locations": 544,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-wikstrom-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Wikstrom Telephone Company Inc.",
+      "status": "provisional",
+      "amount": 4221779,
+      "locations": 521,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-ace-telephone-association",
+      "program": "BEAD",
+      "awardee": "Ace Telephone Association",
+      "status": "provisional",
+      "amount": 3251767,
+      "locations": 895,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2717837,
+      "locations": 1546,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-johnson-telephone-company",
+      "program": "BEAD",
+      "awardee": "Johnson Telephone Company",
+      "status": "provisional",
+      "amount": 2458152,
+      "locations": 200,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-mille-lacs-energy-cooperative",
+      "program": "BEAD",
+      "awardee": "Mille Lacs Energy Cooperative",
+      "status": "provisional",
+      "amount": 2342065,
+      "locations": 149,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-tekstar-communications-inc",
+      "program": "BEAD",
+      "awardee": "Tekstar Communications Inc.",
+      "status": "provisional",
+      "amount": 2311068,
+      "locations": 346,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-gardonville-cooperative-telephone-company",
+      "program": "BEAD",
+      "awardee": "Gardonville Cooperative Telephone Company",
+      "status": "provisional",
+      "amount": 2105786,
+      "locations": 382,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-nextlink-internet-amg-technology-investment-grou",
+      "program": "BEAD",
+      "awardee": "Nextlink Internet (AMG Technology Investment Group)",
+      "status": "provisional",
+      "amount": 1541073,
+      "locations": 2401,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mn-bead-woodstock-communications",
+      "program": "BEAD",
+      "awardee": "Woodstock Communications",
+      "status": "provisional",
+      "amount": 1440000,
+      "locations": 72,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

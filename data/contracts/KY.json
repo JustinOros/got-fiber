@@ -1,0 +1,244 @@
+{
+  "state": "KY",
+  "programs": [
+    {
+      "name": "Kentucky Office of Broadband Development",
+      "summary": "BEAD allocation about $1 billion. Provisional awards total $376,926,543. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ky-bead-strategic-management-llc",
+      "program": "BEAD",
+      "awardee": "Strategic Management LLC",
+      "status": "provisional",
+      "amount": 97529179,
+      "locations": 13038,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "amount": 87333361,
+      "locations": 13028,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 29682081,
+      "locations": 18018,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-tri-county-electric-membership-corporation",
+      "program": "BEAD",
+      "awardee": "Tri-County Electric Membership Corporation",
+      "status": "provisional",
+      "amount": 24093445,
+      "locations": 1539,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-white-cloud-communications-us-llc",
+      "program": "BEAD",
+      "awardee": "White Cloud Communications US LLC",
+      "status": "provisional",
+      "amount": 23967745,
+      "locations": 3011,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-foothills-rural-telephone-cooperative-corporatio",
+      "program": "BEAD",
+      "awardee": "Foothills Rural Telephone Cooperative Corporation Inc.",
+      "status": "provisional",
+      "amount": 22179116,
+      "locations": 2640,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-zitel",
+      "program": "BEAD",
+      "awardee": "ZiTEL",
+      "status": "provisional",
+      "amount": 20132712,
+      "locations": 9779,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-conexon-connect-llc",
+      "program": "BEAD",
+      "awardee": "Conexon Connect LLC",
+      "status": "provisional",
+      "amount": 18505161,
+      "locations": 3249,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "amount": 18170939,
+      "locations": 5777,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-at-t-bellsouth-telecommunications-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (BellSouth Telecommunications LLC)",
+      "status": "provisional",
+      "amount": 9000399,
+      "locations": 4198,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-pennyrile-rural-electric-cooperative-corporation",
+      "program": "BEAD",
+      "awardee": "Pennyrile Rural Electric Cooperative Corporation",
+      "status": "provisional",
+      "amount": 5831572,
+      "locations": 684,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-virginia-everywhere-llc",
+      "program": "BEAD",
+      "awardee": "Virginia Everywhere LLC",
+      "status": "provisional",
+      "amount": 4321618,
+      "locations": 1814,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "amount": 3728859,
+      "locations": 2149,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-bluegrass-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Bluegrass Fiber LLC",
+      "status": "provisional",
+      "amount": 3052911,
+      "locations": 1499,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-thacker-grigsby-telephone-company-incorporated",
+      "program": "BEAD",
+      "awardee": "Thacker-Grigsby Telephone Company Incorporated",
+      "status": "provisional",
+      "amount": 2729521,
+      "locations": 239,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2100600,
+      "locations": 3501,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-peoples-rural-telephone-cooperative-corporation-",
+      "program": "BEAD",
+      "awardee": "Peoples Rural Telephone Cooperative Corporation Inc.",
+      "status": "provisional",
+      "amount": 1481013,
+      "locations": 78,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-telecast-communications-llc",
+      "program": "BEAD",
+      "awardee": "Telecast Communications LLC",
+      "status": "provisional",
+      "amount": 1138399,
+      "locations": 1911,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-south-central-rural-telecommunications-cooperati",
+      "program": "BEAD",
+      "awardee": "South Central Rural Telecommunications Cooperative Inc.",
+      "status": "provisional",
+      "amount": 893952,
+      "locations": 29,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-gibson-connect-llc",
+      "program": "BEAD",
+      "awardee": "Gibson Connect LLC",
+      "status": "provisional",
+      "amount": 879732,
+      "locations": 65,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ky-bead-crystal-broadband-networks-inc",
+      "program": "BEAD",
+      "awardee": "Crystal Broadband Networks Inc.",
+      "status": "provisional",
+      "amount": 174229,
+      "locations": 160,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

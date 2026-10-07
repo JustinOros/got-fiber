@@ -1,0 +1,52 @@
+{
+  "state": "SD",
+  "programs": [
+    {
+      "name": "ConnectSD",
+      "summary": "BEAD allocation about $207 million. Provisional awards total $72,816,060. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "sd-bead-celerity-internet-gallatin-wireless-internet-llc",
+      "program": "BEAD",
+      "awardee": "Celerity Internet (Gallatin Wireless Internet LLC)",
+      "status": "provisional",
+      "amount": 54507557,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sd-bead-midco",
+      "program": "BEAD",
+      "awardee": "Midco",
+      "status": "provisional",
+      "amount": 12873778,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sd-bead-hanson-communications",
+      "program": "BEAD",
+      "awardee": "Hanson Communications",
+      "status": "provisional",
+      "amount": 3838725,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "sd-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1596000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

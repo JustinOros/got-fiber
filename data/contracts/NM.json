@@ -1,0 +1,200 @@
+{
+  "state": "NM",
+  "programs": [
+    {
+      "name": "Connect New Mexico",
+      "summary": "BEAD allocation about $675 million. Provisional awards total $432,974,698. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "nm-bead-the-navajo-nation",
+      "program": "BEAD",
+      "awardee": "The Navajo Nation",
+      "status": "provisional",
+      "amount": 111781009,
+      "locations": 11920,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-resound-networks-llc",
+      "program": "BEAD",
+      "awardee": "Resound Networks LLC",
+      "status": "provisional",
+      "amount": 60233134,
+      "locations": 7842,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-lyte-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Lyte Fiber LLC",
+      "status": "provisional",
+      "amount": 55844625,
+      "locations": 1983,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-pe-asco-valley-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Peñasco Valley Telephone Cooperative Inc.",
+      "status": "provisional",
+      "amount": 36666494,
+      "locations": 2047,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-swc-telesolutions-inc",
+      "program": "BEAD",
+      "awardee": "SWC Telesolutions Inc.",
+      "status": "provisional",
+      "amount": 33289438,
+      "locations": 2365,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-oso-internet-solutions-llc",
+      "program": "BEAD",
+      "awardee": "Oso Internet Solutions LLC",
+      "status": "provisional",
+      "amount": 28615264,
+      "locations": 729,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-pueblo-of-jemez",
+      "program": "BEAD",
+      "awardee": "Pueblo of Jemez",
+      "status": "provisional",
+      "amount": 28022461,
+      "locations": 1095,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-kit-carson-electric-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Kit Carson Electric Cooperative Inc.",
+      "status": "provisional",
+      "amount": 26988097,
+      "locations": 3935,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "amount": 15726280,
+      "locations": 2760,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-valley-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Valley Telephone Cooperative Inc.",
+      "status": "provisional",
+      "amount": 12129961,
+      "locations": 300,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-pueblo-of-acoma",
+      "program": "BEAD",
+      "awardee": "Pueblo of Acoma",
+      "status": "provisional",
+      "amount": 10755557,
+      "locations": 1081,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-transworld-network-llc",
+      "program": "BEAD",
+      "awardee": "TransWorld Network LLC",
+      "status": "provisional",
+      "amount": 4710900,
+      "locations": 535,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 3031200,
+      "locations": 5052,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-valor-telecommunications-of-texas-llc",
+      "program": "BEAD",
+      "awardee": "Valor Telecommunications of Texas LLC",
+      "status": "provisional",
+      "amount": 1979279,
+      "locations": 238,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-dell-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Dell Telephone Cooperative Inc.",
+      "status": "provisional",
+      "amount": 1118396,
+      "locations": 636,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-leaco-rural-telephone-cooperative-inc",
+      "program": "BEAD",
+      "awardee": "Leaco Rural Telephone Cooperative Inc.",
+      "status": "provisional",
+      "amount": 1080603,
+      "locations": 88,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nm-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1002000,
+      "locations": 668,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

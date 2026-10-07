@@ -1,0 +1,107 @@
+{
+  "state": "WV",
+  "programs": [
+    {
+      "name": "West Virginia Office of Broadband",
+      "summary": "BEAD allocation about $1.211 billion. Provisional awards total $624,671,277. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "wv-bead-citynet-llc",
+      "program": "BEAD",
+      "awardee": "Citynet LLC",
+      "status": "provisional",
+      "amount": 229226687,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-frontier-west-virginia-inc",
+      "program": "BEAD",
+      "awardee": "Frontier West Virginia Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 209291933,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-comcast-cable-communications-management",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 61293220,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-micrologic-inc",
+      "program": "BEAD",
+      "awardee": "Micrologic Inc.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 52884440,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-gigabeam-networks-llc",
+      "program": "BEAD",
+      "awardee": "GigaBeam Networks LLC",
+      "status": "provisional",
+      "amount": 23416440,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-prodigi-digital-connections",
+      "program": "BEAD",
+      "awardee": "Prodigi (Digital Connections)",
+      "status": "provisional",
+      "amount": 21576576,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-armstrong-telecommunications-inc",
+      "program": "BEAD",
+      "awardee": "Armstrong Telecommunications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 12664104,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-hardy-telecommunications-inc",
+      "program": "BEAD",
+      "awardee": "Hardy Telecommunications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 7939550,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wv-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 6378326,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "state": "MA",
+  "programs": [
+    {
+      "name": "Massachusetts Broadband Institute",
+      "summary": "BEAD allocation about $147 million. Provisional awards total $18,654,558. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ma-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 11423288,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ma-bead-verizon",
+      "program": "BEAD",
+      "awardee": "Verizon",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3088903,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ma-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2153207,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ma-bead-archtop-fiber",
+      "program": "BEAD",
+      "awardee": "Archtop Fiber",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1570230,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ma-bead-opencape",
+      "program": "BEAD",
+      "awardee": "OpenCape",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 418930,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

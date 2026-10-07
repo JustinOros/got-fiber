@@ -1,0 +1,33 @@
+{
+  "state": "CT",
+  "programs": [
+    {
+      "name": "Connecticut BEAD Program",
+      "summary": "BEAD allocation about $144 million. Provisional awards total $7,216,501. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ct-bead-the-southern-new-england-telephone-company",
+      "program": "BEAD",
+      "awardee": "The Southern New England Telephone Company",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 6573202,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ct-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 643299,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

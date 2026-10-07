@@ -1,0 +1,66 @@
+{
+  "state": "NJ",
+  "programs": [
+    {
+      "name": "New Jersey Office of Broadband Connectivity",
+      "summary": "BEAD allocation about $264 million. Provisional awards total $63,551,464. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "nj-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 50100175,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nj-bead-planet-fiber",
+      "program": "BEAD",
+      "awardee": "Planet Fiber",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 8272538,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nj-bead-community-broadband-networks",
+      "program": "BEAD",
+      "awardee": "Community Broadband Networks",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 3347251,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nj-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1794000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nj-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 37500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "state": "NH",
+  "programs": [
+    {
+      "name": "New Hampshire Office of Broadband Initiatives",
+      "summary": "BEAD allocation about $197 million. Provisional awards total $19,305,223. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "nh-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 6609861,
+      "locations": 573,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nh-bead-consolidated-communications",
+      "program": "BEAD",
+      "awardee": "Consolidated Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 6163258,
+      "locations": 2574,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nh-bead-new-hampshire-electric-co-op",
+      "program": "BEAD",
+      "awardee": "New Hampshire Electric Co-Op",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5578122,
+      "locations": 884,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nh-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 953981,
+      "locations": 1105,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

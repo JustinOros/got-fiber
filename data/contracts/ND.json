@@ -1,0 +1,35 @@
+{
+  "state": "ND",
+  "programs": [
+    {
+      "name": "North Dakota Broadband",
+      "summary": "BEAD allocation about $130 million. Provisional awards total $6,770,073. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "nd-bead-bek-communications",
+      "program": "BEAD",
+      "awardee": "BEK Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 6578572,
+      "locations": 279,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nd-bead-midco",
+      "program": "BEAD",
+      "awardee": "Midco",
+      "status": "provisional",
+      "technology": "Fiber/Cable",
+      "amount": 191501,
+      "locations": 22,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

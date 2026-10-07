@@ -4,6 +4,7 @@ const COLORS = { strand: "#0A8F99", jacket: "#F0B400", ink: "#17212B", contract:
 const STATUS = {
   open: "Open for bids",
   proposed: "Proposed",
+  provisional: "Provisional award",
   awarded: "Awarded",
   construction: "Under construction",
   complete: "Built",
@@ -211,7 +212,8 @@ async function fiberRegion(lat, lng) {
 }
 
 async function contractsNear(place) {
-  const states = S.manifest.contractStates || [];
+  const have = new Set(S.manifest.contractStates || []);
+  const states = [...new Set([place.state, ...(S.manifest.contractGeoStates || [])])].filter(st => have.has(st));
   const docs = await Promise.all(states.map(async st => {
     if (!S.contracts.has(st)) S.contracts.set(st, getJSON(`data/contracts/${st}.json`));
     return [st, await S.contracts.get(st)];
@@ -377,6 +379,47 @@ function contractCard(it) {
   return card;
 }
 
+function statewideList(items) {
+  const shown = 6;
+  const wrap = el("div", "statewide");
+  wrap.append(el("h4", null, `Statewide awards (${items.length})`));
+  const provisional = items.every(it => it.status === "provisional");
+  wrap.append(el("p", "note", `${provisional ? "Provisional awards" : "Awards"} across the state. Project areas are not mapped here yet, so these may not cover this address.`));
+  const ul = el("ul", "list");
+  items.forEach((it, i) => {
+    const li = el("li");
+    if (i >= shown) li.hidden = true;
+    const parts = [];
+    if (it.amount) parts.push(fmtMoney(it.amount));
+    if (it.technology) parts.push(it.technology);
+    if (it.locations) parts.push(`${fmtInt(it.locations)} locations`);
+    li.append(el("span", null, it.awardee || it.title), el("span", "sub", parts.join(", ")));
+    ul.append(li);
+  });
+  wrap.append(ul);
+  if (items.length > shown) {
+    const b = el("button", "more", `Show all ${items.length}`);
+    b.type = "button";
+    b.addEventListener("click", () => {
+      ul.querySelectorAll("li[hidden]").forEach(li => { li.hidden = false; });
+      b.remove();
+    });
+    wrap.append(b);
+  }
+  const src = items.find(it => it.source);
+  if (src) {
+    const p = el("p", "note");
+    const a = el("a", null, "Source");
+    a.href = src.source;
+    a.target = "_blank";
+    a.rel = "noopener";
+    p.append(a);
+    if (src.updated) p.append(` (as of ${src.updated})`);
+    wrap.append(p);
+  }
+  return wrap;
+}
+
 function render(place, covered, at, region, deals) {
   const root = $("result");
   root.replaceChildren();
@@ -414,8 +457,11 @@ function render(place, covered, at, region, deals) {
 
   const cb = el("section", "block");
   cb.append(el("h3", null, "Contracts and bids"));
-  if (deals.items.length) deals.items.forEach(it => cb.append(contractCard(it)));
-  else cb.append(el("p", "note", "No broadband contracts or open bids are listed near this address."));
+  const local = deals.items.filter(it => it.where !== "Statewide");
+  const wide = deals.items.filter(it => it.where === "Statewide").sort((a, b) => (b.amount || 0) - (a.amount || 0));
+  local.forEach(it => cb.append(contractCard(it)));
+  if (wide.length) cb.append(statewideList(wide));
+  if (!local.length && !wide.length) cb.append(el("p", "note", "No broadband contracts or open bids are listed near this address."));
   for (const p of deals.programs) {
     const n = el("p", "note");
     n.append(`${p.name}: ${p.summary} `);

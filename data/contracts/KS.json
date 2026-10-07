@@ -1,0 +1,188 @@
+{
+  "state": "KS",
+  "programs": [
+    {
+      "name": "Kansas Commerce BEAD Program",
+      "summary": "BEAD allocation about $451 million. Provisional awards total $252,629,596. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ks-bead-ideatek-telcom-llc",
+      "program": "BEAD",
+      "awardee": "IdeaTek Telcom LLC",
+      "status": "provisional",
+      "amount": 115890548,
+      "locations": 7419,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-3jl-holdings-llc",
+      "program": "BEAD",
+      "awardee": "3JL Holdings LLC",
+      "status": "provisional",
+      "amount": 68162285,
+      "locations": 3246,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-giant-communications-inc",
+      "program": "BEAD",
+      "awardee": "Giant Communications Inc.",
+      "status": "provisional",
+      "amount": 19966406,
+      "locations": 702,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-amg-technology-investment-group-llc",
+      "program": "BEAD",
+      "awardee": "AMG Technology Investment Group LLC",
+      "status": "provisional",
+      "amount": 9043618,
+      "locations": 3668,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-resound-networks",
+      "program": "BEAD",
+      "awardee": "Resound Networks",
+      "status": "provisional",
+      "amount": 8082060,
+      "locations": 8247,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-the-pioneer-telephone-association-inc",
+      "program": "BEAD",
+      "awardee": "The Pioneer Telephone Association Inc.",
+      "status": "provisional",
+      "amount": 7842928,
+      "locations": 295,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-midco",
+      "program": "BEAD",
+      "awardee": "Midco",
+      "status": "provisional",
+      "amount": 5781444,
+      "locations": 189,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-haviland-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Haviland Telephone Company Inc.",
+      "status": "provisional",
+      "amount": 3452329,
+      "locations": 269,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-twin-valley-telephone-inc",
+      "program": "BEAD",
+      "awardee": "Twin Valley Telephone Inc.",
+      "status": "provisional",
+      "amount": 3287855,
+      "locations": 1142,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-prairie-band-potawatomi-nation",
+      "program": "BEAD",
+      "awardee": "Prairie Band Potawatomi Nation",
+      "status": "provisional",
+      "amount": 2592000,
+      "locations": 81,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-totah-communications-inc",
+      "program": "BEAD",
+      "awardee": "Totah Communications Inc.",
+      "status": "provisional",
+      "amount": 2571181,
+      "locations": 169,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2356548,
+      "locations": 797,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-twin-valley-communications-inc",
+      "program": "BEAD",
+      "awardee": "Twin Valley Communications Inc.",
+      "status": "provisional",
+      "amount": 2319542,
+      "locations": 500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-the-southern-kansas-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "The Southern Kansas Telephone Company Inc.",
+      "status": "provisional",
+      "amount": 965860,
+      "locations": 132,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-wave-wireless-llc",
+      "program": "BEAD",
+      "awardee": "Wave Wireless LLC",
+      "status": "provisional",
+      "amount": 235109,
+      "locations": 73,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ks-bead-butler-rural-electric-cooperative-assn-inc",
+      "program": "BEAD",
+      "awardee": "Butler Rural Electric Cooperative Assn Inc.",
+      "status": "provisional",
+      "amount": 79883,
+      "locations": 35,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "state": "MD",
+  "programs": [
+    {
+      "name": "Connect Maryland",
+      "summary": "BEAD allocation about $268 million. Provisional awards total $78,106,623. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "md-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "amount": 50195680,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "md-bead-verizon",
+      "program": "BEAD",
+      "awardee": "Verizon",
+      "status": "provisional",
+      "amount": 16671908,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "md-bead-talkie-communications",
+      "program": "BEAD",
+      "awardee": "Talkie Communications",
+      "status": "provisional",
+      "amount": 9877635,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "md-bead-amazon-kuiper-commercial-services",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1361400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

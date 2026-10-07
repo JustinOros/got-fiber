@@ -1,0 +1,330 @@
+{
+  "state": "IN",
+  "programs": [
+    {
+      "name": "Indiana Broadband Office",
+      "summary": "BEAD allocation about $868 million. Provisional awards total $486,309,855. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "in-bead-strategic-management-llc",
+      "program": "BEAD",
+      "awardee": "Strategic Management LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 149712147,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-mainstream-fiber-networks-llc",
+      "program": "BEAD",
+      "awardee": "Mainstream Fiber Networks LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 121927529,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-surf-internet",
+      "program": "BEAD",
+      "awardee": "Surf Internet",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 54977163,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 29613000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 24533972,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-amg-technology",
+      "program": "BEAD",
+      "awardee": "AMG Technology",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 17252173,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-ninestar-connect",
+      "program": "BEAD",
+      "awardee": "NineStar Connect",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 16835081,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 14208810,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-paulding-putnam-electric-cooperative",
+      "program": "BEAD",
+      "awardee": "Paulding Putnam Electric Cooperative",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 9040021,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-decatur-county-remc",
+      "program": "BEAD",
+      "awardee": "Decatur County REMC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 7133202,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-ligtel-communications-inc",
+      "program": "BEAD",
+      "awardee": "LigTel Communications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4837750,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-joink",
+      "program": "BEAD",
+      "awardee": "Joink",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4582278,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-rtc-communications-corp",
+      "program": "BEAD",
+      "awardee": "RTC Communications Corp.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3761632,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-at-t-indiana-bell-telephone-company",
+      "program": "BEAD",
+      "awardee": "AT&T (Indiana Bell Telephone Company)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3496225,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-southeastern-indiana-remc",
+      "program": "BEAD",
+      "awardee": "Southeastern Indiana REMC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3480184,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-frontier-north-inc",
+      "program": "BEAD",
+      "awardee": "Frontier North Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3347717,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-daviess-martin-county-rural-telephone-corporatio",
+      "program": "BEAD",
+      "awardee": "Daviess-Martin County Rural Telephone Corporation",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3052592,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-orange-county-remc",
+      "program": "BEAD",
+      "awardee": "Orange County REMC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2325828,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-metalink-technologies",
+      "program": "BEAD",
+      "awardee": "MetaLINK Technologies",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 2057507,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-wabash-mutual-telephone-company",
+      "program": "BEAD",
+      "awardee": "Wabash Mutual Telephone Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1950120,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-berrycomm",
+      "program": "BEAD",
+      "awardee": "BerryComm",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1827132,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-psc-fiber-perry-spencer-rural-telephone-cooperat",
+      "program": "BEAD",
+      "awardee": "PSC Fiber (Perry Spencer Rural Telephone Cooperative)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1816949,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-south-central-indiana-remc",
+      "program": "BEAD",
+      "awardee": "South Central Indiana REMC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1451309,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-mediacom-llc",
+      "program": "BEAD",
+      "awardee": "Mediacom LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 947686,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-mulberry-cooperative-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Mulberry Cooperative Telephone Company Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 944475,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 562670,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-wispan-internet-llc",
+      "program": "BEAD",
+      "awardee": "WiSpan Internet LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 522891,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-auburn-essential-services",
+      "program": "BEAD",
+      "awardee": "Auburn Essential Services",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 107692,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "in-bead-jackson-county-remc",
+      "program": "BEAD",
+      "awardee": "Jackson County REMC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 4120,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

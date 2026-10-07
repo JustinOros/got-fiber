@@ -1,0 +1,302 @@
+{
+  "state": "WI",
+  "programs": [
+    {
+      "name": "Wisconsin BEAD Program",
+      "summary": "BEAD allocation about $1.06 billion. Provisional awards total $690,445,792. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "wi-bead-bertram-communications-llc",
+      "program": "BEAD",
+      "awardee": "Bertram Communications LLC",
+      "status": "provisional",
+      "amount": 161167112,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "amount": 133804282,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-bug-tussel-hilbert-communications",
+      "program": "BEAD",
+      "awardee": "Bug Tussel (Hilbert Communications)",
+      "status": "provisional",
+      "amount": 87690115,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-sokaogon-chippewa-tribe",
+      "program": "BEAD",
+      "awardee": "Sokaogon Chippewa Tribe",
+      "status": "provisional",
+      "amount": 73292152,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-norvado-inc",
+      "program": "BEAD",
+      "awardee": "Norvado Inc.",
+      "status": "provisional",
+      "amount": 39259359,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-ctc-telcom-inc",
+      "program": "BEAD",
+      "awardee": "CTC Telcom Inc.",
+      "status": "provisional",
+      "amount": 35390428,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 34404450,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-frontier-north-inc",
+      "program": "BEAD",
+      "awardee": "Frontier North Inc.",
+      "status": "provisional",
+      "amount": 31977705,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-pierce-pepin-cooperative-services",
+      "program": "BEAD",
+      "awardee": "Pierce Pepin Cooperative Services",
+      "status": "provisional",
+      "amount": 21549140,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-lemonweir-valley-telephone-company",
+      "program": "BEAD",
+      "awardee": "Lemonweir Valley Telephone Company",
+      "status": "provisional",
+      "amount": 12131810,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-east-central-energy",
+      "program": "BEAD",
+      "awardee": "East Central Energy",
+      "status": "provisional",
+      "amount": 7947689,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-lac-du-flambeau-band-of-lake-superior-chippewa-i",
+      "program": "BEAD",
+      "awardee": "Lac du Flambeau Band of Lake Superior Chippewa Indians",
+      "status": "provisional",
+      "amount": 7390616,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-la-valle-telephone-coop-and-richland-grant-telep",
+      "program": "BEAD",
+      "awardee": "La Valle Telephone Coop and Richland Grant Telephone Coop",
+      "status": "provisional",
+      "amount": 7231177,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "amount": 6335769,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-marquette-adams-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "Marquette-Adams Telephone Cooperative",
+      "status": "provisional",
+      "amount": 6018756,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "amount": 5922848,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-waypoint-experts",
+      "program": "BEAD",
+      "awardee": "Waypoint Experts",
+      "status": "provisional",
+      "amount": 3719994,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-net-lec-llc",
+      "program": "BEAD",
+      "awardee": "NET LEC LLC",
+      "status": "provisional",
+      "amount": 3316812,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-edge-broadband-llc",
+      "program": "BEAD",
+      "awardee": "Edge Broadband LLC",
+      "status": "provisional",
+      "amount": 2712287,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-cirrinity-wittenberg-telephone-company",
+      "program": "BEAD",
+      "awardee": "Cirrinity (Wittenberg Telephone Company)",
+      "status": "provisional",
+      "amount": 1933757,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-lakeland-communications-group-llc",
+      "program": "BEAD",
+      "awardee": "Lakeland Communications Group LLC",
+      "status": "provisional",
+      "amount": 1569044,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-at-t-wisconsin-wisconsin-bell-llc",
+      "program": "BEAD",
+      "awardee": "AT&T Wisconsin (Wisconsin Bell LLC)",
+      "status": "provisional",
+      "amount": 1167785,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-amg-technology-investment-group-llc",
+      "program": "BEAD",
+      "awardee": "AMG Technology Investment Group LLC",
+      "status": "provisional",
+      "amount": 1101223,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-neit-broadband-llc",
+      "program": "BEAD",
+      "awardee": "NEIT Broadband LLC",
+      "status": "provisional",
+      "amount": 1048914,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-country-wireless",
+      "program": "BEAD",
+      "awardee": "Country Wireless",
+      "status": "provisional",
+      "amount": 1017730,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-hillsboro-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Hillsboro Telephone Company Inc.",
+      "status": "provisional",
+      "amount": 893465,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-mount-horeb-telephone-company",
+      "program": "BEAD",
+      "awardee": "Mount Horeb Telephone Company",
+      "status": "provisional",
+      "amount": 201347,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "amount": 170025,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wi-bead-city-of-superior",
+      "program": "BEAD",
+      "awardee": "City of Superior",
+      "status": "provisional",
+      "amount": 80001,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

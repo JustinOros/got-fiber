@@ -1,0 +1,251 @@
+{
+  "state": "AR",
+  "programs": [
+    {
+      "name": "Arkansas State Broadband Office",
+      "summary": "BEAD allocation about $1 billion. Provisional awards total $308,328,089. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ar-bead-hometown-internet-llc",
+      "program": "BEAD",
+      "awardee": "Hometown Internet LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 88455722,
+      "locations": 16056,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-aristotle-unified-communications",
+      "program": "BEAD",
+      "awardee": "Aristotle Unified Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 68997759,
+      "locations": 9420,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 26279777,
+      "locations": 13791,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 21894431,
+      "locations": 3242,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-premier-holdings-llc",
+      "program": "BEAD",
+      "awardee": "Premier Holdings LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 20834687,
+      "locations": 1779,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-texhoma-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Texhoma Fiber LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 20015907,
+      "locations": 1688,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-cg-computer-works-llc",
+      "program": "BEAD",
+      "awardee": "CG Computer Works LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 14678524,
+      "locations": 9786,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-northern-arkansas-telephone-company",
+      "program": "BEAD",
+      "awardee": "Northern Arkansas Telephone Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 12762545,
+      "locations": 1436,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 8506345,
+      "locations": 11178,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-resound-networks",
+      "program": "BEAD",
+      "awardee": "Resound Networks",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 5241421,
+      "locations": 5488,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-windstream-arkansas-llc",
+      "program": "BEAD",
+      "awardee": "Windstream Arkansas LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5009457,
+      "locations": 1393,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-wehco-video-inc",
+      "program": "BEAD",
+      "awardee": "WEHCO Video Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3592291,
+      "locations": 832,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-connect2first-internet",
+      "program": "BEAD",
+      "awardee": "Connect2First Internet",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2905598,
+      "locations": 436,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-at-t",
+      "program": "BEAD",
+      "awardee": "AT&T",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2195791,
+      "locations": 213,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-ozarksgo",
+      "program": "BEAD",
+      "awardee": "OzarksGo",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2125563,
+      "locations": 322,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1718244,
+      "locations": 1650,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-decatur-telephone-company",
+      "program": "BEAD",
+      "awardee": "Decatur Telephone Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1342473,
+      "locations": 275,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-c-l-broadband-connect-llc",
+      "program": "BEAD",
+      "awardee": "C & L Broadband Connect LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 965964,
+      "locations": 85,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-swatco",
+      "program": "BEAD",
+      "awardee": "SWATCO",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 436706,
+      "locations": 58,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ar-bead-clay-county-connect-inc",
+      "program": "BEAD",
+      "awardee": "Clay County Connect Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 368886,
+      "locations": 140,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

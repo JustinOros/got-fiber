@@ -1,0 +1,195 @@
+{
+  "state": "MT",
+  "programs": [
+    {
+      "name": "ConnectMT",
+      "summary": "BEAD allocation about $629 million. Provisional awards total $403,758,268. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "mt-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 119308500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-gallatin-wireless",
+      "program": "BEAD",
+      "awardee": "Gallatin Wireless",
+      "status": "provisional",
+      "technology": "Fiber/Fixed wireless",
+      "amount": 103219991,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-inland-mt",
+      "program": "BEAD",
+      "awardee": "Inland MT",
+      "status": "provisional",
+      "technology": "Fiber/Fixed wireless",
+      "amount": 60038764,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "amount": 27268877,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-blackfoot-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "Blackfoot Telephone Cooperative",
+      "status": "provisional",
+      "amount": 26234612,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 25946400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-siyeh-corp",
+      "program": "BEAD",
+      "awardee": "Siyeh Corp.",
+      "status": "provisional",
+      "amount": 8960175,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-grizzly-broadband",
+      "program": "BEAD",
+      "awardee": "Grizzly Broadband",
+      "status": "provisional",
+      "amount": 8532451,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-interbel-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "InterBel Telephone Cooperative",
+      "status": "provisional",
+      "amount": 5870215,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-montana-internet-corp",
+      "program": "BEAD",
+      "awardee": "Montana Internet Corp.",
+      "status": "provisional",
+      "amount": 4600623,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-range-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "Range Telephone Cooperative",
+      "status": "provisional",
+      "amount": 4115043,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-ziply-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Ziply Fiber LLC",
+      "status": "provisional",
+      "amount": 4057630,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-safelink-internet",
+      "program": "BEAD",
+      "awardee": "Safelink Internet",
+      "status": "provisional",
+      "amount": 1348584,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-kds-networks-bialeki-holdings",
+      "program": "BEAD",
+      "awardee": "KDS Networks (Bialeki Holdings)",
+      "status": "provisional",
+      "amount": 1024282,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-project-telephone-company",
+      "program": "BEAD",
+      "awardee": "Project Telephone Company",
+      "status": "provisional",
+      "amount": 1000000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-visionary-communications",
+      "program": "BEAD",
+      "awardee": "Visionary Communications",
+      "status": "provisional",
+      "amount": 822823,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-linctel-communications",
+      "program": "BEAD",
+      "awardee": "Linctel Communications",
+      "status": "provisional",
+      "amount": 770602,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mt-bead-triangle-communication-system",
+      "program": "BEAD",
+      "awardee": "Triangle Communication System",
+      "status": "provisional",
+      "amount": 632697,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

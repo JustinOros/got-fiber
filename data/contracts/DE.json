@@ -1,0 +1,33 @@
+{
+  "state": "DE",
+  "programs": [
+    {
+      "name": "Delaware BEAD Program",
+      "summary": "BEAD allocation about $108 million. Provisional awards total $13,374,777. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "de-bead-verizon",
+      "program": "BEAD",
+      "awardee": "Verizon",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 9597115,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "de-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 3777662,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

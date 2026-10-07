@@ -1,0 +1,253 @@
+{
+  "state": "CA",
+  "programs": [
+    {
+      "name": "California BEAD Program (CPUC)",
+      "summary": "BEAD allocation about $1.9 billion. Provisional awards total $1,574,861,927. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ca-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 399711231,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-at-t",
+      "program": "BEAD",
+      "awardee": "AT&T",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 331334561,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-frontier-communications",
+      "program": "BEAD",
+      "awardee": "Frontier Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 248654998,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-stimulus-technologies-of-california-llc",
+      "program": "BEAD",
+      "awardee": "Stimulus Technologies of California LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 118997374,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-astound-broadband",
+      "program": "BEAD",
+      "awardee": "Astound Broadband",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 113910769,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 100979428,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-wi-fiber-of-northern-california",
+      "program": "BEAD",
+      "awardee": "Wi-Fiber of Northern California",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 64103363,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 63089695,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-intus-smartcities-inc",
+      "program": "BEAD",
+      "awardee": "INTUS Smartcities Inc.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 50432883,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-resound-networks",
+      "program": "BEAD",
+      "awardee": "Resound Networks",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 34433409,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-varcomm-broadband-inc",
+      "program": "BEAD",
+      "awardee": "VARCOMM Broadband Inc.",
+      "status": "provisional",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 23076128,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-habematolel-pomo-of-upper-lake",
+      "program": "BEAD",
+      "awardee": "Habematolel Pomo of Upper Lake",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 9204174,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-zito-media",
+      "program": "BEAD",
+      "awardee": "Zito Media",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 6297981,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-valley-internet-personal-network-computing",
+      "program": "BEAD",
+      "awardee": "Valley Internet (Personal Network Computing)",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 4042433,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-trellis-communications",
+      "program": "BEAD",
+      "awardee": "Trellis Communications",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 1770136,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-siskiyou-telephone",
+      "program": "BEAD",
+      "awardee": "Siskiyou Telephone",
+      "status": "provisional",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 1447141,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-butler-america",
+      "program": "BEAD",
+      "awardee": "Butler America",
+      "status": "provisional",
+      "technology": "Unlicensed fixed wireless",
+      "amount": 1194840,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-hunter-communications-technologies-llc",
+      "program": "BEAD",
+      "awardee": "Hunter Communications & Technologies LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1118393,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-mountain-tower-and-network-company-llc",
+      "program": "BEAD",
+      "awardee": "Mountain Tower and Network Company LLC",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 439723,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-matrix-broadband-zinnia-networks",
+      "program": "BEAD",
+      "awardee": "Matrix Broadband (Zinnia Networks)",
+      "status": "provisional",
+      "technology": "Unlicensed fixed wireless",
+      "amount": 432522,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-etheric-networks-incorporated",
+      "program": "BEAD",
+      "awardee": "Etheric Networks Incorporated",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 157500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    },
+    {
+      "id": "ca-bead-ewiiaapaayp-band-of-kumeyaay-indians",
+      "program": "BEAD",
+      "awardee": "Ewiiaapaayp Band of Kumeyaay Indians",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 33245,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2026/02/benefit-of-the-bargain-provisional-winners-by-state-updated-january-2026/",
+      "updated": "2026-02"
+    }
+  ]
+}

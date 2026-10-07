@@ -1,0 +1,220 @@
+{
+  "state": "GA",
+  "programs": [
+    {
+      "name": "Georgia Technology Authority BEAD Program",
+      "summary": "BEAD allocation about $1.31 billion. Provisional awards total $309,602,817. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ga-bead-windstream-communications-llc",
+      "program": "BEAD",
+      "awardee": "Windstream Communications LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 118915422,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-at-t",
+      "program": "BEAD",
+      "awardee": "AT&T",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 44899034,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-georgia-windstream-llc",
+      "program": "BEAD",
+      "awardee": "Georgia Windstream LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 28362388,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 20198847,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-conexon-connect",
+      "program": "BEAD",
+      "awardee": "Conexon Connect",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 19899198,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-burke-county",
+      "program": "BEAD",
+      "awardee": "Burke County",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 14230000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-mediacom-llc",
+      "program": "BEAD",
+      "awardee": "Mediacom LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 12659423,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 12615842,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 11645993,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-zoom-telcom-llc",
+      "program": "BEAD",
+      "awardee": "Zoom Telcom LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 11611883,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-blue-ridge-mountain-electric-membership-corp",
+      "program": "BEAD",
+      "awardee": "Blue Ridge Mountain Electric Membership Corp.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3807280,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2265592,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-liveoak-fiber",
+      "program": "BEAD",
+      "awardee": "LiveOak Fiber",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2231167,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-plant-telephone-company",
+      "program": "BEAD",
+      "awardee": "Plant Telephone Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1767135,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-city-of-elberton-elbertonnet",
+      "program": "BEAD",
+      "awardee": "City of Elberton (ElbertonNet)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1456019,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-ellijay-telephone-company",
+      "program": "BEAD",
+      "awardee": "Ellijay Telephone Company",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1278364,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-dovetel-communications-llc",
+      "program": "BEAD",
+      "awardee": "Dovetel Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1183360,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-pembroke-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Pembroke Telephone Company Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 493500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ga-bead-planters-communications-llc",
+      "program": "BEAD",
+      "awardee": "Planters Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 82371,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

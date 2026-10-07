@@ -1,0 +1,46 @@
+{
+  "state": "HI",
+  "programs": [
+    {
+      "name": "Hawaii BEAD Program",
+      "summary": "BEAD allocation about $149 million. Provisional awards total $94,869,000. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "hi-bead-hawaii-kauai-and-maui-counties-and-honolulu",
+      "program": "BEAD",
+      "awardee": "Hawaii, Kauai and Maui counties and Honolulu",
+      "status": "provisional",
+      "technology": "Middle-mile",
+      "amount": 64170000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "hi-bead-hawaiian-telcom-inc",
+      "program": "BEAD",
+      "awardee": "Hawaiian Telcom Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 29928000,
+      "locations": 5725,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "hi-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 771000,
+      "locations": 1285,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

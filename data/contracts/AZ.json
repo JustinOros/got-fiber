@@ -142,11 +142,13 @@
       "program": "BEAD",
       "awardee": "Navajo Nation",
       "status": "awarded",
-      "technology": "Fiber",
+      "technology": "Fiber, fixed wireless and LEO satellite",
       "scope": "statewide",
-      "notes": "Large provisional award covering Navajo Nation lands. Amount not listed here.",
-      "source": "https://brandergroup.net/?p=25689",
-      "updated": "2025-10"
+      "notes": "Covers Navajo Nation lands.",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10",
+      "amount": 148635859,
+      "locations": 17136
     },
     {
       "id": "az-bead-pima-comcast",
@@ -158,9 +160,11 @@
       "counties": [
         "Pima"
       ],
-      "notes": "Named in the Pima County memo on the Arizona BEAD final proposal.",
+      "notes": "Named in the Pima County memo on the Arizona BEAD final proposal. Amount is the statewide award total.",
       "source": "https://content.civicplus.com/api/assets/bbf85f09-7433-4e49-bda3-171ec3187acb",
-      "updated": "2025-08"
+      "updated": "2025-10",
+      "amount": 13558696,
+      "locations": 13495
     },
     {
       "id": "az-bead-pima-trico",
@@ -172,9 +176,11 @@
       "counties": [
         "Pima"
       ],
-      "notes": "Named in the Pima County memo on the Arizona BEAD final proposal.",
+      "notes": "Named in the Pima County memo on the Arizona BEAD final proposal. Amount is the statewide award total.",
       "source": "https://content.civicplus.com/api/assets/bbf85f09-7433-4e49-bda3-171ec3187acb",
-      "updated": "2025-08"
+      "updated": "2025-10",
+      "amount": 19684324,
+      "locations": 8980
     },
     {
       "id": "az-cochise-rdof",
@@ -217,6 +223,126 @@
       "notes": "Joint fiber application with Cochise County for BEAD and other grants. Award not confirmed here.",
       "source": "https://public.destinyhosted.com/cochidocs/2025/BOS/20250107_2863/8110_SSVEC_BEAD_Funding_Letter_of_Support.pdf",
       "updated": "2025-01"
+    },
+    {
+      "id": "az-bead-hopi-telecommunications",
+      "program": "BEAD",
+      "awardee": "Hopi Telecommunications",
+      "status": "awarded",
+      "technology": "Unlicensed fixed wireless",
+      "amount": 41350583,
+      "locations": 1137,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-transworld-network",
+      "program": "BEAD",
+      "awardee": "TransWorld Network",
+      "status": "awarded",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 23529848,
+      "locations": 32712,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "awarded",
+      "technology": "LEO satellite",
+      "amount": 17112534,
+      "locations": 10749,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-yavapai-apache-nation",
+      "program": "BEAD",
+      "awardee": "Yavapai-Apache Nation",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 13251127,
+      "locations": 275,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-welink-communications-inc",
+      "program": "BEAD",
+      "awardee": "WeLink Communications Inc.",
+      "status": "awarded",
+      "technology": "Fiber/Licensed fixed wireless",
+      "amount": 11039630,
+      "locations": 9104,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-tohono-o-odham-utility-authority",
+      "program": "BEAD",
+      "awardee": "Tohono O'odham Utility Authority",
+      "status": "awarded",
+      "technology": "Fiber/Unlicensed fixed wireless",
+      "amount": 6994619,
+      "locations": 416,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-white-mountain-apache-tribe",
+      "program": "BEAD",
+      "awardee": "White Mountain Apache Tribe",
+      "status": "awarded",
+      "technology": "Fiber/Unlicensed fixed wireless",
+      "amount": 6608310,
+      "locations": 98,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-cox-communications",
+      "program": "BEAD",
+      "awardee": "Cox Communications",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 6491706,
+      "locations": 621,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-mediacom",
+      "program": "BEAD",
+      "awardee": "Mediacom",
+      "status": "awarded",
+      "technology": "Fiber",
+      "amount": 5784373,
+      "locations": 3311,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "az-bead-resound-networks",
+      "program": "BEAD",
+      "awardee": "Resound Networks",
+      "status": "awarded",
+      "technology": "Unlicensed fixed wireless",
+      "amount": 2276357,
+      "locations": 1897,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
     }
   ]
 }

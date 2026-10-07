@@ -1,0 +1,83 @@
+{
+  "state": "ME",
+  "programs": [
+    {
+      "name": "Maine Connectivity Authority",
+      "summary": "BEAD allocation about $272 million. Provisional awards total $109,412,662. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "me-bead-consolidated-communications",
+      "program": "BEAD",
+      "awardee": "Consolidated Communications",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 35451257,
+      "locations": 17390,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "me-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 6797559,
+      "locations": 3464,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "me-bead-unitel-direct-communications",
+      "program": "BEAD",
+      "awardee": "UniTel (Direct Communications)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2811359,
+      "locations": 1218,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "me-bead-pioneer-broadband",
+      "program": "BEAD",
+      "awardee": "Pioneer Broadband",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1681301,
+      "locations": 974,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "me-bead-union-river-direct-communications",
+      "program": "BEAD",
+      "awardee": "Union River (Direct Communications)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1488687,
+      "locations": 145,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "me-bead-comcast",
+      "program": "BEAD",
+      "awardee": "Comcast",
+      "status": "provisional",
+      "technology": "HFC",
+      "amount": 139122,
+      "locations": 71,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "state": "LA",
+  "programs": [
+    {
+      "name": "Louisiana Office of Broadband Development and Connectivity",
+      "summary": "BEAD allocation about $1.36 billion. Provisional awards total $499,079,587. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "la-bead-louisiana-local-fiber-consortium",
+      "program": "BEAD",
+      "awardee": "Louisiana Local Fiber Consortium",
+      "status": "provisional",
+      "amount": 378042581,
+      "locations": 68535,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-at-t",
+      "program": "BEAD",
+      "awardee": "AT&T",
+      "status": "provisional",
+      "amount": 21507805,
+      "locations": 19784,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-nextlink",
+      "program": "BEAD",
+      "awardee": "Nextlink",
+      "status": "provisional",
+      "amount": 18490698,
+      "locations": 7460,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-cajun-broadband",
+      "program": "BEAD",
+      "awardee": "Cajun Broadband",
+      "status": "provisional",
+      "amount": 18203892,
+      "locations": 4067,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "amount": 16233318,
+      "locations": 6561,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-direct-communications",
+      "program": "BEAD",
+      "awardee": "Direct Communications",
+      "status": "provisional",
+      "amount": 10000000,
+      "locations": 1504,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-conexon-connect-llc",
+      "program": "BEAD",
+      "awardee": "Conexon Connect LLC",
+      "status": "provisional",
+      "amount": 9349697,
+      "locations": 3443,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 7745250,
+      "locations": 10327,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-brightspeed",
+      "program": "BEAD",
+      "awardee": "Brightspeed",
+      "status": "provisional",
+      "amount": 5751955,
+      "locations": 2609,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-skyrider-communications-llc",
+      "program": "BEAD",
+      "awardee": "SkyRider Communications LLC",
+      "status": "provisional",
+      "amount": 5418804,
+      "locations": 718,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-pelican-broadband",
+      "program": "BEAD",
+      "awardee": "Pelican Broadband",
+      "status": "provisional",
+      "amount": 4022689,
+      "locations": 1232,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "la-bead-coushatta-tribe-of-la",
+      "program": "BEAD",
+      "awardee": "Coushatta Tribe of LA",
+      "status": "provisional",
+      "amount": 3529898,
+      "locations": 558,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

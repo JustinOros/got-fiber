@@ -1,0 +1,22 @@
+{
+  "state": "DC",
+  "programs": [
+    {
+      "name": "Tech Together",
+      "summary": "BEAD allocation about $100.7 million. Provisional awards total $996,099. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "dc-bead-constituent-services-worldwide",
+      "program": "BEAD",
+      "awardee": "Constituent Services Worldwide",
+      "status": "provisional",
+      "technology": "Fixed wireless",
+      "amount": 996099,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

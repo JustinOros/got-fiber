@@ -1,0 +1,145 @@
+{
+  "state": "MS",
+  "programs": [
+    {
+      "name": "Broadband Expansion and Accessibility of Mississippi (BEAM)",
+      "summary": "BEAD allocation about $1.2 billion. Provisional awards total $567,165,372. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ms-bead-at-t-bellsouth-telecommunications-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (BellSouth Telecommunications LLC)",
+      "status": "provisional",
+      "amount": 241719009,
+      "locations": 39795,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-cablesouth-media-iii-llc",
+      "program": "BEAD",
+      "awardee": "Cablesouth Media III LLC",
+      "status": "provisional",
+      "amount": 75129148,
+      "locations": 6746,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-conexon-connect-llc",
+      "program": "BEAD",
+      "awardee": "Conexon Connect LLC",
+      "status": "provisional",
+      "amount": 66349715,
+      "locations": 13110,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "amount": 44620446,
+      "locations": 10809,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-bruce-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Bruce Telephone Company Inc.",
+      "status": "provisional",
+      "amount": 42552391,
+      "locations": 3198,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-tec-of-jackson-inc",
+      "program": "BEAD",
+      "awardee": "TEC of Jackson Inc.",
+      "status": "provisional",
+      "amount": 40758621,
+      "locations": 3766,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-telepak-networks-inc",
+      "program": "BEAD",
+      "awardee": "Telepak Networks Inc.",
+      "status": "provisional",
+      "amount": 22338413,
+      "locations": 4335,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-franklin-telephone-company-inc",
+      "program": "BEAD",
+      "awardee": "Franklin Telephone Company Inc.",
+      "status": "provisional",
+      "amount": 19070871,
+      "locations": 1859,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 5201400,
+      "locations": 8669,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-tecinfo-communications-llc",
+      "program": "BEAD",
+      "awardee": "TecInfo Communications LLC",
+      "status": "provisional",
+      "amount": 4921067,
+      "locations": 694,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 3762327,
+      "locations": 4450,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ms-bead-mediacom-llc",
+      "program": "BEAD",
+      "awardee": "Mediacom LLC",
+      "status": "provisional",
+      "amount": 741963,
+      "locations": 199,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

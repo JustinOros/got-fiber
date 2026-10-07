@@ -1,0 +1,178 @@
+{
+  "state": "AL",
+  "programs": [
+    {
+      "name": "Alabama BEAD Program",
+      "summary": "BEAD allocation about $1.4 billion. Provisional awards total $530,743,198. Project areas are not mapped here yet.",
+      "url": "https://adeca.alabama.gov/broadband/",
+      "office": "Program page"
+    }
+  ],
+  "items": [
+    {
+      "id": "al-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "technology": "Fiber/HFC",
+      "amount": 157204258,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-at-t-bellsouth-telecommunications-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (BellSouth Telecommunications LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 93246382,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-sp-broadband-inc",
+      "program": "BEAD",
+      "awardee": "SP Broadband Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 57614608,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-premier-holdings-llc",
+      "program": "BEAD",
+      "awardee": "Premier Holdings LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 57405202,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-zitel",
+      "program": "BEAD",
+      "awardee": "ZiTEL",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 53818453,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-yellowhammer-networks-llc",
+      "program": "BEAD",
+      "awardee": "Yellowhammer Networks LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 24216483,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-windstream-alabama-llc",
+      "program": "BEAD",
+      "awardee": "Windstream Alabama LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 17873782,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 16626800,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 14302871,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-millry-telephone-co-inc",
+      "program": "BEAD",
+      "awardee": "Millry Telephone Co. Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 9450000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-farmers-telecommunications-corp",
+      "program": "BEAD",
+      "awardee": "Farmers Telecommunications Corp.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 8318075,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 8160000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 7468500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-ardmore-telephone-co-inc",
+      "program": "BEAD",
+      "awardee": "Ardmore Telephone Co. Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 3216073,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "al-bead-point-broadband-fiber-holding-llc",
+      "program": "BEAD",
+      "awardee": "Point Broadband Fiber Holding LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1821711,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

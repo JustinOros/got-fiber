@@ -1,0 +1,321 @@
+{
+  "state": "MI",
+  "programs": [
+    {
+      "name": "Michigan High-Speed Internet Office",
+      "summary": "BEAD allocation about $1.6 billion. Provisional awards total $919,106,714. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "mi-bead-strategic-management-llc",
+      "program": "BEAD",
+      "awardee": "Strategic Management LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 272036386,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-123net",
+      "program": "BEAD",
+      "awardee": "123NET",
+      "status": "provisional",
+      "amount": 85536205,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-itc-broadband-operating-llc",
+      "program": "BEAD",
+      "awardee": "ITC Broadband Operating LLC",
+      "status": "provisional",
+      "amount": 71248405,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-midwest-energy-communications",
+      "program": "BEAD",
+      "awardee": "Midwest Energy & Communications",
+      "status": "provisional",
+      "amount": 59437634,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-surf-internet",
+      "program": "BEAD",
+      "awardee": "Surf Internet",
+      "status": "provisional",
+      "amount": 54339757,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 45684355,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-presque-isle-electric-gas-co-op",
+      "program": "BEAD",
+      "awardee": "Presque Isle Electric & Gas Co-op",
+      "status": "provisional",
+      "amount": 38016460,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-upper-peninsula-telephone-company",
+      "program": "BEAD",
+      "awardee": "Upper Peninsula Telephone Company",
+      "status": "provisional",
+      "amount": 35505000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-comcast-cable-communications-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications LLC",
+      "status": "provisional",
+      "amount": 29286256,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-great-lakes-energy",
+      "program": "BEAD",
+      "awardee": "Great Lakes Energy",
+      "status": "provisional",
+      "amount": 26711000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-point-broadband-fiber-holding-llc",
+      "program": "BEAD",
+      "awardee": "Point Broadband Fiber Holding LLC",
+      "status": "provisional",
+      "amount": 22584250,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "amount": 19704803,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-dmci-broadband-llc",
+      "program": "BEAD",
+      "awardee": "DMCI Broadband LLC",
+      "status": "provisional",
+      "amount": 19215468,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 16758000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-michigan-bell-telephone-company-llc",
+      "program": "BEAD",
+      "awardee": "Michigan Bell Telephone Company LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 16404069,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-cherry-capital-connection-llc",
+      "program": "BEAD",
+      "awardee": "Cherry Capital Connection LLC",
+      "status": "provisional",
+      "amount": 15891521,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-cms-internet-llc",
+      "program": "BEAD",
+      "awardee": "CMS Internet LLC",
+      "status": "provisional",
+      "amount": 14491046,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-frontier-north-inc",
+      "program": "BEAD",
+      "awardee": "Frontier North Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 13920665,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-barry-county-services",
+      "program": "BEAD",
+      "awardee": "Barry County Services",
+      "status": "provisional",
+      "amount": 9900124,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-thumb-electric-cooperative",
+      "program": "BEAD",
+      "awardee": "Thumb Electric Cooperative",
+      "status": "provisional",
+      "amount": 9583500,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 8228400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-duke-broadband-inc",
+      "program": "BEAD",
+      "awardee": "Duke Broadband Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 8178731,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-homeworks-tri-county-electric-cooperative",
+      "program": "BEAD",
+      "awardee": "HomeWorks Tri-County Electric Cooperative",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 6965957,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-lakenet-llc",
+      "program": "BEAD",
+      "awardee": "LakeNet LLC",
+      "status": "provisional",
+      "amount": 5790423,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-ace-telephone-company-of-michigan-inc",
+      "program": "BEAD",
+      "awardee": "Ace Telephone Company of Michigan Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5130855,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-daystarr-communications",
+      "program": "BEAD",
+      "awardee": "DayStarr Communications",
+      "status": "provisional",
+      "amount": 4245175,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-pigeon-telephone-company",
+      "program": "BEAD",
+      "awardee": "Pigeon Telephone Company",
+      "status": "provisional",
+      "amount": 1915300,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-waldron-communication-company",
+      "program": "BEAD",
+      "awardee": "Waldron Communication Company",
+      "status": "provisional",
+      "amount": 1592169,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-baraga-telephone-company",
+      "program": "BEAD",
+      "awardee": "Baraga Telephone Company",
+      "status": "provisional",
+      "amount": 734640,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "mi-bead-southwest-michigan-communications-inc",
+      "program": "BEAD",
+      "awardee": "Southwest Michigan Communications Inc.",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 70160,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

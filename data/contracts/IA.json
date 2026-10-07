@@ -1,0 +1,522 @@
+{
+  "state": "IA",
+  "programs": [
+    {
+      "name": "Iowa BEAD Program",
+      "summary": "BEAD allocation about $415 million. Provisional awards total $221,282,630. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ia-bead-mediacom-llc",
+      "program": "BEAD",
+      "awardee": "Mediacom LLC",
+      "status": "provisional",
+      "amount": 109779342,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-grand-river-mutual-telephone-corporation",
+      "program": "BEAD",
+      "awardee": "Grand River Mutual Telephone Corporation",
+      "status": "provisional",
+      "amount": 12335026,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-citizens-mutual-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "Citizens Mutual Telephone Cooperative",
+      "status": "provisional",
+      "amount": 11164243,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-nextlink-internet-amg-technology-investment-grou",
+      "program": "BEAD",
+      "awardee": "Nextlink Internet (AMG Technology Investment Group)",
+      "status": "provisional",
+      "amount": 10474060,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-shellsburg-cablevision-inc",
+      "program": "BEAD",
+      "awardee": "Shellsburg Cablevision Inc.",
+      "status": "provisional",
+      "amount": 6392131,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-btc-inc",
+      "program": "BEAD",
+      "awardee": "BTC Inc.",
+      "status": "provisional",
+      "amount": 6376393,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 5721673,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-maquoketa-valley-electric-cooperative",
+      "program": "BEAD",
+      "awardee": "Maquoketa Valley Electric Cooperative",
+      "status": "provisional",
+      "amount": 5342639,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-west-iowa-telephone-company",
+      "program": "BEAD",
+      "awardee": "West Iowa Telephone Company",
+      "status": "provisional",
+      "amount": 4358460,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-huxley-communications-cooperative",
+      "program": "BEAD",
+      "awardee": "Huxley Communications Cooperative",
+      "status": "provisional",
+      "amount": 4353533,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-long-lines-broadband",
+      "program": "BEAD",
+      "awardee": "Long Lines Broadband",
+      "status": "provisional",
+      "amount": 3296610,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-farmers-telephone-company",
+      "program": "BEAD",
+      "awardee": "Farmers Telephone Company",
+      "status": "provisional",
+      "amount": 3049853,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-partner-communications-cooperative",
+      "program": "BEAD",
+      "awardee": "Partner Communications Cooperative",
+      "status": "provisional",
+      "amount": 2583981,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-sharon-telephone-company",
+      "program": "BEAD",
+      "awardee": "Sharon Telephone Company",
+      "status": "provisional",
+      "amount": 2353540,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-little-wapsie-communications-llc",
+      "program": "BEAD",
+      "awardee": "Little Wapsie Communications LLC",
+      "status": "provisional",
+      "amount": 2137020,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-cumberland-telephone-company",
+      "program": "BEAD",
+      "awardee": "Cumberland Telephone Company",
+      "status": "provisional",
+      "amount": 2024231,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-kalona-cooperative-telephone-co",
+      "program": "BEAD",
+      "awardee": "Kalona Cooperative Telephone Co.",
+      "status": "provisional",
+      "amount": 1953430,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-harmony-telephone-company",
+      "program": "BEAD",
+      "awardee": "Harmony Telephone Company",
+      "status": "provisional",
+      "amount": 1716987,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-webster-calhoun-cooperative-telephone-associatio",
+      "program": "BEAD",
+      "awardee": "Webster-Calhoun Cooperative Telephone Association",
+      "status": "provisional",
+      "amount": 1703475,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-coon-valley-cooperative-telephone",
+      "program": "BEAD",
+      "awardee": "Coon Valley Cooperative Telephone",
+      "status": "provisional",
+      "amount": 1624873,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-jefferson-telephone-company",
+      "program": "BEAD",
+      "awardee": "Jefferson Telephone Company",
+      "status": "provisional",
+      "amount": 1620873,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-dumont-telephone-company",
+      "program": "BEAD",
+      "awardee": "Dumont Telephone Company",
+      "status": "provisional",
+      "amount": 1585783,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-wellman-cooperative-telephone-association",
+      "program": "BEAD",
+      "awardee": "Wellman Cooperative Telephone Association",
+      "status": "provisional",
+      "amount": 1583550,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-butler-bremer-mutual-telephone-company",
+      "program": "BEAD",
+      "awardee": "Butler-Bremer Mutual Telephone Company",
+      "status": "provisional",
+      "amount": 1359563,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-muscatine-power-water",
+      "program": "BEAD",
+      "awardee": "Muscatine Power & Water",
+      "status": "provisional",
+      "amount": 1312389,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-mediapolis-telephone-company",
+      "program": "BEAD",
+      "awardee": "Mediapolis Telephone Company",
+      "status": "provisional",
+      "amount": 1205797,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-cascade-communications-company",
+      "program": "BEAD",
+      "awardee": "Cascade Communications Company",
+      "status": "provisional",
+      "amount": 1185861,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-panora-communications-cooperative",
+      "program": "BEAD",
+      "awardee": "Panora Communications Cooperative",
+      "status": "provisional",
+      "amount": 1157885,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-miles-communications-llc",
+      "program": "BEAD",
+      "awardee": "Miles Communications LLC",
+      "status": "provisional",
+      "amount": 1030895,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-casey-mutual-telephone",
+      "program": "BEAD",
+      "awardee": "Casey Mutual Telephone",
+      "status": "provisional",
+      "amount": 919032,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-midwest-data-center-inc",
+      "program": "BEAD",
+      "awardee": "Midwest Data Center Inc.",
+      "status": "provisional",
+      "amount": 914427,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-central-iowa-broadband",
+      "program": "BEAD",
+      "awardee": "Central Iowa Broadband",
+      "status": "provisional",
+      "amount": 778981,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-acentek-ace-telephone-association",
+      "program": "BEAD",
+      "awardee": "AcenTek (Ace Telephone Association)",
+      "status": "provisional",
+      "amount": 724930,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-mabel-cooperative-telephone-company",
+      "program": "BEAD",
+      "awardee": "Mabel Cooperative Telephone Company",
+      "status": "provisional",
+      "amount": 712113,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-manning-municipal-utilities",
+      "program": "BEAD",
+      "awardee": "Manning Municipal Utilities",
+      "status": "provisional",
+      "amount": 631994,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-louisa-communications",
+      "program": "BEAD",
+      "awardee": "Louisa Communications",
+      "status": "provisional",
+      "amount": 609390,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-sully-telephone-association",
+      "program": "BEAD",
+      "awardee": "Sully Telephone Association",
+      "status": "provisional",
+      "amount": 598837,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-gigfire-llc",
+      "program": "BEAD",
+      "awardee": "GigFire LLC",
+      "status": "provisional",
+      "amount": 598286,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-hawkeye-interconnect-company",
+      "program": "BEAD",
+      "awardee": "Hawkeye Interconnect Company",
+      "status": "provisional",
+      "amount": 514709,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-guthrie-telecommunications-network-inc",
+      "program": "BEAD",
+      "awardee": "Guthrie Telecommunications Network Inc.",
+      "status": "provisional",
+      "amount": 437250,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-mechanicsville-telephone-company",
+      "program": "BEAD",
+      "awardee": "Mechanicsville Telephone Company",
+      "status": "provisional",
+      "amount": 424125,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-mi-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Mi-Fiber LLC",
+      "status": "provisional",
+      "amount": 399291,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-the-marne-elk-horn-telephone-company",
+      "program": "BEAD",
+      "awardee": "The Marne & Elk Horn Telephone Company",
+      "status": "provisional",
+      "amount": 381669,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-farmers-mutual-communications",
+      "program": "BEAD",
+      "awardee": "Farmers Mutual Communications",
+      "status": "provisional",
+      "amount": 362276,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-reinbeck-telecommunications-utility",
+      "program": "BEAD",
+      "awardee": "Reinbeck Telecommunications Utility",
+      "status": "provisional",
+      "amount": 318972,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-western-iowa-wireless-inc",
+      "program": "BEAD",
+      "awardee": "Western Iowa Wireless Inc.",
+      "status": "provisional",
+      "amount": 308211,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-cooperative-telephone-exchange",
+      "program": "BEAD",
+      "awardee": "Cooperative Telephone Exchange",
+      "status": "provisional",
+      "amount": 293351,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-alpine-communications-l-c",
+      "program": "BEAD",
+      "awardee": "Alpine Communications L.C.",
+      "status": "provisional",
+      "amount": 229941,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-f-b-communications-inc",
+      "program": "BEAD",
+      "awardee": "F&B Communications Inc.",
+      "status": "provisional",
+      "amount": 210064,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-palmer-mutual-telephone-company",
+      "program": "BEAD",
+      "awardee": "Palmer Mutual Telephone Company",
+      "status": "provisional",
+      "amount": 73587,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ia-bead-central-broadband",
+      "program": "BEAD",
+      "awardee": "Central Broadband",
+      "status": "provisional",
+      "amount": 57098,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "state": "NC",
+  "programs": [
+    {
+      "name": "North Carolina BEAD Program",
+      "summary": "BEAD allocation about $1.53 billion. Provisional awards total $408,511,175. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "nc-bead-at-t-bellsouth-telecommunications-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (BellSouth Telecommunications LLC)",
+      "status": "provisional",
+      "amount": 142476363,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "amount": 90599049,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "amount": 71467709,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-frontier-internet",
+      "program": "BEAD",
+      "awardee": "Frontier Internet",
+      "status": "provisional",
+      "amount": 44179778,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 15885600,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-citizens-telephone-company",
+      "program": "BEAD",
+      "awardee": "Citizens Telephone Company",
+      "status": "provisional",
+      "amount": 8738155,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-wilkes-telephone-membership-coop",
+      "program": "BEAD",
+      "awardee": "Wilkes Telephone Membership Coop.",
+      "status": "provisional",
+      "amount": 7929438,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-cherokee-cablevision-inc",
+      "program": "BEAD",
+      "awardee": "Cherokee Cablevision Inc.",
+      "status": "provisional",
+      "amount": 6902283,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-zito-west-holding-llc",
+      "program": "BEAD",
+      "awardee": "Zito West Holding LLC",
+      "status": "provisional",
+      "amount": 3253348,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-the-yadkin-valley-telephone-membership-corporati",
+      "program": "BEAD",
+      "awardee": "The Yadkin Valley Telephone Membership Corporation",
+      "status": "provisional",
+      "amount": 3066643,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2460000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-harvestbeam-inc",
+      "program": "BEAD",
+      "awardee": "HarvestBeam Inc.",
+      "status": "provisional",
+      "amount": 2371418,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-windstream-north-carolina-llc",
+      "program": "BEAD",
+      "awardee": "Windstream North Carolina LLC",
+      "status": "provisional",
+      "amount": 2281480,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-atlantic-telephone-membership-corp",
+      "program": "BEAD",
+      "awardee": "Atlantic Telephone Membership Corp.",
+      "status": "provisional",
+      "amount": 2072900,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-cnd-acquisition-corporation",
+      "program": "BEAD",
+      "awardee": "CND Acquisition Corporation",
+      "status": "provisional",
+      "amount": 1481099,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-infinitylink-communications",
+      "program": "BEAD",
+      "awardee": "InfinityLink Communications",
+      "status": "provisional",
+      "amount": 1100081,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-foothills-broadband-llc",
+      "program": "BEAD",
+      "awardee": "Foothills Broadband LLC",
+      "status": "provisional",
+      "amount": 878723,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-ripple-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Ripple Fiber LLC",
+      "status": "provisional",
+      "amount": 597177,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-fybe-roanoke-connect-holdings-llc",
+      "program": "BEAD",
+      "awardee": "Fybe (Roanoke Connect Holdings LLC)",
+      "status": "provisional",
+      "amount": 361400,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-lremc-technologies-llc",
+      "program": "BEAD",
+      "awardee": "LREMC Technologies LLC",
+      "status": "provisional",
+      "amount": 351075,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "nc-bead-erc-broadband-llc",
+      "program": "BEAD",
+      "awardee": "ERC Broadband LLC",
+      "status": "provisional",
+      "amount": 57458,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "state": "VA",
+  "programs": [
+    {
+      "name": "Virginia Office of Broadband",
+      "summary": "BEAD allocation about $1.48 billion. Provisional awards total $613,277,638. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "va-bead-virginia-everywhere-llc",
+      "program": "BEAD",
+      "awardee": "Virginia Everywhere LLC",
+      "status": "provisional",
+      "amount": 171382468,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-comcast-cable-communications-management-llc",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management LLC",
+      "status": "provisional",
+      "amount": 146403435,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-riverstreet-communications-of-virginia-inc",
+      "program": "BEAD",
+      "awardee": "RiverStreet Communications of Virginia Inc.",
+      "status": "provisional",
+      "amount": 44002222,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-zitel",
+      "program": "BEAD",
+      "awardee": "ZiTEL",
+      "status": "provisional",
+      "amount": 38130346,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-empower-broadband-inc",
+      "program": "BEAD",
+      "awardee": "Empower Broadband Inc.",
+      "status": "provisional",
+      "amount": 35185485,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-verizon-virginia-llc",
+      "program": "BEAD",
+      "awardee": "Verizon Virginia LLC",
+      "status": "provisional",
+      "amount": 30431448,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-point-broadband-fiber-holding-llc",
+      "program": "BEAD",
+      "awardee": "Point Broadband Fiber Holding LLC",
+      "status": "provisional",
+      "amount": 23358488,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-wi-fiber",
+      "program": "BEAD",
+      "awardee": "Wi-Fiber",
+      "status": "provisional",
+      "amount": 23187805,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-port-80-internet-services-llc",
+      "program": "BEAD",
+      "awardee": "Port 80 Internet Services LLC",
+      "status": "provisional",
+      "amount": 21806686,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-gigabeam-networks-llc",
+      "program": "BEAD",
+      "awardee": "Gigabeam Networks LLC",
+      "status": "provisional",
+      "amount": 18174941,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "amount": 16661198,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-eastern-shore-of-virginia-broadband-authority",
+      "program": "BEAD",
+      "awardee": "Eastern Shore of Virginia Broadband Authority",
+      "status": "provisional",
+      "amount": 8812916,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-citizens-telephone-coop",
+      "program": "BEAD",
+      "awardee": "Citizens Telephone Coop",
+      "status": "provisional",
+      "amount": 7676033,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-mgw-telephone-co-inc",
+      "program": "BEAD",
+      "awardee": "MGW Telephone Co. Inc.",
+      "status": "provisional",
+      "amount": 5434483,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-sparq-global-llc",
+      "program": "BEAD",
+      "awardee": "SPARQ Global LLC",
+      "status": "provisional",
+      "amount": 5325023,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 4461300,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "amount": 3766585,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 3258750,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-orange-county-broadband-authority",
+      "program": "BEAD",
+      "awardee": "Orange County Broadband Authority",
+      "status": "provisional",
+      "amount": 2788698,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-kinex-telecom-inc",
+      "program": "BEAD",
+      "awardee": "Kinex Telecom Inc.",
+      "status": "provisional",
+      "amount": 1228806,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-iwisp-llc",
+      "program": "BEAD",
+      "awardee": "IWISP LLC",
+      "status": "provisional",
+      "amount": 797940,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-breezeline-cogeco-us-delmar-llc",
+      "program": "BEAD",
+      "awardee": "Breezeline (Cogeco US Delmar LLC)",
+      "status": "provisional",
+      "amount": 520582,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "va-bead-scott-county-telephone-cooperative",
+      "program": "BEAD",
+      "awardee": "Scott County Telephone Cooperative",
+      "status": "provisional",
+      "amount": 482000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

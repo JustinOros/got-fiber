@@ -1,0 +1,140 @@
+{
+  "state": "NE",
+  "programs": [
+    {
+      "name": "Nebraska BEAD Program",
+      "summary": "BEAD allocation about $405 million. Provisional awards total $43,844,548. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ne-bead-amg-technology-investment-group-llc",
+      "program": "BEAD",
+      "awardee": "AMG Technology Investment Group LLC",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 16843395,
+      "locations": 7454,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-midstates-data-transport-llc",
+      "program": "BEAD",
+      "awardee": "Midstates Data Transport LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 10097624,
+      "locations": 423,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-nedelco-inc",
+      "program": "BEAD",
+      "awardee": "Nedelco Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 5179176,
+      "locations": 330,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-pinpoint-communications-inc",
+      "program": "BEAD",
+      "awardee": "Pinpoint Communications Inc.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 2601566,
+      "locations": 232,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2468475,
+      "locations": 3096,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-amazon-kuiper-commercial-services",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2287450,
+      "locations": 1496,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-mobius-communications-co",
+      "program": "BEAD",
+      "awardee": "Mobius Communications Co.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 1979312,
+      "locations": 293,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-quick-current-nebraska-llc",
+      "program": "BEAD",
+      "awardee": "Quick Current-Nebraska LLC",
+      "status": "provisional",
+      "technology": "Mixed",
+      "amount": 1530126,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-inventive-wireless-of-nebraska-llc",
+      "program": "BEAD",
+      "awardee": "Inventive Wireless of Nebraska LLC",
+      "status": "provisional",
+      "technology": "Licensed fixed wireless",
+      "amount": 510000,
+      "locations": 115,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-allo-communications-llc",
+      "program": "BEAD",
+      "awardee": "ALLO Communications LLC",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 182410,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ne-bead-northeast-ne-telephone-co",
+      "program": "BEAD",
+      "awardee": "Northeast NE Telephone Co.",
+      "status": "provisional",
+      "technology": "Fiber",
+      "amount": 165000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

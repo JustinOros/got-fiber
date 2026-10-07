@@ -1,0 +1,213 @@
+{
+  "state": "OK",
+  "programs": [
+    {
+      "name": "Oklahoma BEAD Program",
+      "summary": "BEAD allocation about $797 million. Provisional awards total $493,318,564. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "ok-bead-trace-fiber-networks-llc",
+      "program": "BEAD",
+      "awardee": "Trace Fiber Networks LLC",
+      "status": "provisional",
+      "amount": 250729929,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-pine-telephone-company",
+      "program": "BEAD",
+      "awardee": "Pine Telephone Company",
+      "status": "provisional",
+      "amount": 45398090,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-osage-nation",
+      "program": "BEAD",
+      "awardee": "Osage Nation",
+      "status": "provisional",
+      "amount": 43794555,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-southwest-oklahoma-telephone-company",
+      "program": "BEAD",
+      "awardee": "Southwest Oklahoma Telephone Company",
+      "status": "provisional",
+      "amount": 41469135,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-southern-plains-cable",
+      "program": "BEAD",
+      "awardee": "Southern Plains Cable",
+      "status": "provisional",
+      "amount": 24538674,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-360-broadband-llc",
+      "program": "BEAD",
+      "awardee": "360 Broadband LLC",
+      "status": "provisional",
+      "amount": 19700295,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-chisholm-broadband",
+      "program": "BEAD",
+      "awardee": "Chisholm Broadband",
+      "status": "provisional",
+      "amount": 17814686,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-dobson-fiber",
+      "program": "BEAD",
+      "awardee": "Dobson Fiber",
+      "status": "provisional",
+      "amount": 12215161,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-cvec-fiber-llc",
+      "program": "BEAD",
+      "awardee": "CVEC Fiber LLC",
+      "status": "provisional",
+      "amount": 11368891,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-choctaw-nation-of-oklahoma",
+      "program": "BEAD",
+      "awardee": "Choctaw Nation of Oklahoma",
+      "status": "provisional",
+      "amount": 9443407,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-cross-telephone-company-llc",
+      "program": "BEAD",
+      "awardee": "Cross Telephone Company LLC",
+      "status": "provisional",
+      "amount": 3581831,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-centranet-llc",
+      "program": "BEAD",
+      "awardee": "Centranet LLC",
+      "status": "provisional",
+      "amount": 3293299,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 2239740,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "amount": 1893596,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-resound-networks",
+      "program": "BEAD",
+      "awardee": "Resound Networks",
+      "status": "provisional",
+      "amount": 1784300,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-atlink-services",
+      "program": "BEAD",
+      "awardee": "AtLink Services",
+      "status": "provisional",
+      "amount": 1704129,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-atlas-broadband",
+      "program": "BEAD",
+      "awardee": "Atlas Broadband",
+      "status": "provisional",
+      "amount": 1627631,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-valliant-telephone-company",
+      "program": "BEAD",
+      "awardee": "Valliant Telephone Company",
+      "status": "provisional",
+      "amount": 531905,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-amg-oklahoma-isp-llc",
+      "program": "BEAD",
+      "awardee": "AMG Oklahoma ISP LLC",
+      "status": "provisional",
+      "amount": 185860,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "ok-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 3450,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

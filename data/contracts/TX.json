@@ -1,0 +1,255 @@
+{
+  "state": "TX",
+  "programs": [
+    {
+      "name": "Texas BEAD Program",
+      "summary": "BEAD allocation about $3.31 billion. Provisional awards total $1,271,233,725. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "tx-bead-nexstream-4ip-technology-and-media-llc",
+      "program": "BEAD",
+      "awardee": "Nexstream (4ip Technology and Media LLC)",
+      "status": "provisional",
+      "amount": 407439361,
+      "locations": 32091,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-astound-networks-texas-llc",
+      "program": "BEAD",
+      "awardee": "Astound Networks Texas LLC",
+      "status": "provisional",
+      "amount": 166100901,
+      "locations": 16882,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-lyte-fiber-llc",
+      "program": "BEAD",
+      "awardee": "Lyte Fiber LLC",
+      "status": "provisional",
+      "amount": 119069421,
+      "locations": 9439,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 108789551,
+      "locations": 63963,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-plains-internet",
+      "program": "BEAD",
+      "awardee": "Plains Internet",
+      "status": "provisional",
+      "amount": 96116680,
+      "locations": 12973,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-frontier-southwest-incorporated",
+      "program": "BEAD",
+      "awardee": "Frontier Southwest Incorporated",
+      "status": "provisional",
+      "amount": 59237742,
+      "locations": 8143,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-aristotle-unified-communications-inc",
+      "program": "BEAD",
+      "awardee": "Aristotle Unified Communications Inc.",
+      "status": "provisional",
+      "amount": 56914449,
+      "locations": 10756,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-rural-telecommunications-of-america-inc",
+      "program": "BEAD",
+      "awardee": "Rural Telecommunications of America Inc.",
+      "status": "provisional",
+      "amount": 48392725,
+      "locations": 5977,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-charter-communications-spectrum",
+      "program": "BEAD",
+      "awardee": "Charter Communications (Spectrum)",
+      "status": "provisional",
+      "amount": 47810536,
+      "locations": 7792,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-amg-technology-investment-group-llc",
+      "program": "BEAD",
+      "awardee": "AMG Technology Investment Group LLC",
+      "status": "provisional",
+      "amount": 39308137,
+      "locations": 31604,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-at-t-southwestern-bell-telephone-company-llc",
+      "program": "BEAD",
+      "awardee": "AT&T (Southwestern Bell Telephone Company LLC)",
+      "status": "provisional",
+      "amount": 32237747,
+      "locations": 6651,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-brightspeed-connect-holding-ii-llc",
+      "program": "BEAD",
+      "awardee": "Brightspeed (Connect Holding II LLC)",
+      "status": "provisional",
+      "amount": 24396727,
+      "locations": 6413,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-resound-networks-llc",
+      "program": "BEAD",
+      "awardee": "Resound Networks LLC",
+      "status": "provisional",
+      "amount": 23127233,
+      "locations": 15582,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-360-broadband-llc",
+      "program": "BEAD",
+      "awardee": "360 Broadband LLC",
+      "status": "provisional",
+      "amount": 16071631,
+      "locations": 2705,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-highline-livingston-telephone",
+      "program": "BEAD",
+      "awardee": "Highline (Livingston Telephone)",
+      "status": "provisional",
+      "amount": 8536703,
+      "locations": 1526,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-valor-telecommunications-of-texas-llc",
+      "program": "BEAD",
+      "awardee": "Valor Telecommunications of Texas LLC",
+      "status": "provisional",
+      "amount": 4778788,
+      "locations": 2403,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-lucky-fiber",
+      "program": "BEAD",
+      "awardee": "Lucky Fiber",
+      "status": "provisional",
+      "amount": 4469117,
+      "locations": 1436,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-ibt-group-usa-llc",
+      "program": "BEAD",
+      "awardee": "IBT Group USA LLC",
+      "status": "provisional",
+      "amount": 2300708,
+      "locations": 1264,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-vtx-communications-llc",
+      "program": "BEAD",
+      "awardee": "VTX Communications LLC",
+      "status": "provisional",
+      "amount": 2120407,
+      "locations": 261,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-thrive-broadband",
+      "program": "BEAD",
+      "awardee": "Thrive Broadband",
+      "status": "provisional",
+      "amount": 1483986,
+      "locations": 207,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-ama-communications-llc",
+      "program": "BEAD",
+      "awardee": "AMA Communications LLC",
+      "status": "provisional",
+      "amount": 1385518,
+      "locations": 118,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "tx-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 1145659,
+      "locations": 2014,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}

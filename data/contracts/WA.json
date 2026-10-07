@@ -1,0 +1,283 @@
+{
+  "state": "WA",
+  "programs": [
+    {
+      "name": "Washington State Broadband Office",
+      "summary": "BEAD allocation about $1.23 billion. Provisional awards total $849,894,572. Project areas are not mapped here yet."
+    }
+  ],
+  "items": [
+    {
+      "id": "wa-bead-inland-cellular-llc",
+      "program": "BEAD",
+      "awardee": "Inland Cellular LLC",
+      "status": "provisional",
+      "amount": 331980599,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-northwest-open-access-network",
+      "program": "BEAD",
+      "awardee": "Northwest Open Access Network",
+      "status": "provisional",
+      "amount": 130580883,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-broadlinc-spokane-regional-development-authority",
+      "program": "BEAD",
+      "awardee": "BROADLINC (Spokane Regional Development Authority)",
+      "status": "provisional",
+      "amount": 66830287,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-starlink-spacex",
+      "program": "BEAD",
+      "awardee": "Starlink (SpaceX)",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 43365739,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-public-utility-district-1-of-lewis-county",
+      "program": "BEAD",
+      "awardee": "Public Utility District #1 of Lewis County",
+      "status": "provisional",
+      "amount": 26602348,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-confederated-tribes-of-the-colville-reservation",
+      "program": "BEAD",
+      "awardee": "Confederated Tribes of the Colville Reservation",
+      "status": "provisional",
+      "amount": 25780557,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-concept-communications-llc",
+      "program": "BEAD",
+      "awardee": "Concept Communications LLC",
+      "status": "provisional",
+      "amount": 25578921,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-county-of-kittitas",
+      "program": "BEAD",
+      "awardee": "County of Kittitas",
+      "status": "provisional",
+      "amount": 24681257,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-declaration-network-group-inc",
+      "program": "BEAD",
+      "awardee": "Declaration Network Group Inc.",
+      "status": "provisional",
+      "amount": 23706090,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-king-county-oirm",
+      "program": "BEAD",
+      "awardee": "King County OIRM",
+      "status": "provisional",
+      "amount": 20795646,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-island-network-llc",
+      "program": "BEAD",
+      "awardee": "Island Network LLC",
+      "status": "provisional",
+      "amount": 16275497,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-public-utility-district-1-of-kitsap-county",
+      "program": "BEAD",
+      "awardee": "Public Utility District #1 of Kitsap County",
+      "status": "provisional",
+      "amount": 14982410,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-evergreen-washington-connect-llc",
+      "program": "BEAD",
+      "awardee": "Evergreen Washington Connect LLC",
+      "status": "provisional",
+      "amount": 14792304,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-comcast-cable-communications-management",
+      "program": "BEAD",
+      "awardee": "Comcast Cable Communications Management",
+      "status": "provisional",
+      "amount": 14533726,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-port-of-bellingham",
+      "program": "BEAD",
+      "awardee": "Port of Bellingham",
+      "status": "provisional",
+      "amount": 13907771,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-public-utility-district-1-of-pend-oreille-county",
+      "program": "BEAD",
+      "awardee": "Public Utility District #1 of Pend Oreille County",
+      "status": "provisional",
+      "amount": 12405351,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-tri-county-economic-development-district",
+      "program": "BEAD",
+      "awardee": "Tri County Economic Development District",
+      "status": "provisional",
+      "amount": 9449150,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-amazon-kuiper-commercial-services-llc",
+      "program": "BEAD",
+      "awardee": "Amazon Kuiper Commercial Services LLC",
+      "status": "provisional",
+      "technology": "LEO satellite",
+      "amount": 9271171,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-benton-county-commissioner-s-office",
+      "program": "BEAD",
+      "awardee": "Benton County Commissioner's Office",
+      "status": "provisional",
+      "amount": 5566336,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-public-utility-district-1-of-jefferson-county",
+      "program": "BEAD",
+      "awardee": "Public Utility District #1 of Jefferson County",
+      "status": "provisional",
+      "amount": 4788986,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-astound-networks-washington-llc",
+      "program": "BEAD",
+      "awardee": "Astound Networks Washington LLC",
+      "status": "provisional",
+      "amount": 3561219,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-makah-indian-tribe",
+      "program": "BEAD",
+      "awardee": "Makah Indian Tribe",
+      "status": "provisional",
+      "amount": 3330258,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-quinault-indian-nation",
+      "program": "BEAD",
+      "awardee": "Quinault Indian Nation",
+      "status": "provisional",
+      "amount": 3188248,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-ziply-fiber-northwest-llc",
+      "program": "BEAD",
+      "awardee": "Ziply Fiber Northwest LLC",
+      "status": "provisional",
+      "amount": 2028839,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-spokane-tribe",
+      "program": "BEAD",
+      "awardee": "Spokane Tribe",
+      "status": "provisional",
+      "amount": 997083,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-lummi-indian-business-council",
+      "program": "BEAD",
+      "awardee": "Lummi Indian Business Council",
+      "status": "provisional",
+      "amount": 857896,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    },
+    {
+      "id": "wa-bead-hood-canal-telephone-co-inc",
+      "program": "BEAD",
+      "awardee": "Hood Canal Telephone Co. Inc.",
+      "status": "provisional",
+      "amount": 56000,
+      "scope": "statewide",
+      "source": "https://brandergroup.net/2025/11/bead-broadband-status-awards-by-state-october-2025/",
+      "updated": "2025-10"
+    }
+  ]
+}
