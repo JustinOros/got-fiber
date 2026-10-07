@@ -21,7 +21,8 @@ const S = {
   contracts: new Map(),
   beadFine: new Map(),
   beadCoarse: new Map(),
-  beadProjects: new Map()
+  beadProjects: new Map(),
+  starlink: new Map()
 };
 
 const $ = id => document.getElementById(id);
@@ -256,6 +257,48 @@ function shard(cache, dir, id, root = "fiber") {
   const key = `${root}/${dir}/${id}`;
   if (!cache.has(key)) cache.set(key, getJSON(`data/${key}.json`));
   return cache.get(key);
+}
+
+async function starlinkAt(lat, lng) {
+  const m = S.manifest;
+  const res = m.starlinkRes || 7;
+  const sr = m.starlinkShardRes || 4;
+  const read = async c => {
+    const id = h3.cellToParent(c, sr);
+    if (!S.starlink.has(id)) S.starlink.set(id, getJSON(`data/starlink/${id}.json`));
+    const d = await S.starlink.get(id);
+    const i = d && d.c[c];
+    return i == null ? null : d.t[i];
+  };
+  const cell = h3.latLngToCell(lat, lng, res);
+  const own = await read(cell);
+  if (own) return { here: true, down: own[0], up: own[1] };
+  const near = (await Promise.all(h3.gridDisk(cell, 1).filter(c => c !== cell).map(read))).filter(Boolean);
+  if (near.length) {
+    return { here: false, near: true, down: Math.max(...near.map(v => v[0])), up: Math.max(...near.map(v => v[1])) };
+  }
+  return { here: false, near: false };
+}
+
+function starlinkBlock(place, sl) {
+  const b = el("section", "block");
+  b.append(el("h3", null, "Starlink"));
+  const states = S.manifest.starlinkStates || [];
+  let text;
+  if (!states.includes(place.state) || !sl) text = "No Starlink data for this state yet.";
+  else if (sl.here) text = `Starlink reports service here, up to ${fmtSpeed(sl.down)} down and ${fmtSpeed(sl.up)} up.`;
+  else if (sl.near) text = `Starlink reports service close by, up to ${fmtSpeed(sl.down)} down and ${fmtSpeed(sl.up)} up.`;
+  else text = "Starlink does not report service here.";
+  b.append(el("p", null, text));
+  const n = el("p", "note");
+  n.append("Starlink can waitlist areas that are at capacity, so confirm on ");
+  const a = el("a", null, "starlink.com");
+  a.href = "https://www.starlink.com/map";
+  a.target = "_blank";
+  a.rel = "noopener";
+  n.append(a, " before ordering.");
+  b.append(n);
+  return b;
 }
 
 async function beadNear(lat, lng) {
@@ -629,7 +672,7 @@ function statewideList(items) {
   return wrap;
 }
 
-function render(place, covered, at, region, deals, bead) {
+function render(place, covered, at, region, deals, bead, sl) {
   const root = $("result");
   root.replaceChildren();
 
@@ -644,6 +687,8 @@ function render(place, covered, at, region, deals, bead) {
     b.append(providerList(mergeProviders(at.own ? [at.own] : at.near)));
     root.append(b);
   }
+
+  if ((S.manifest.starlinkStates || []).length) root.append(starlinkBlock(place, sl));
 
   if (covered) {
     const b = el("section", "block");
@@ -733,11 +778,13 @@ async function check(q) {
     }
     const covered = S.manifest.states.includes(place.state);
     const hasBead = (S.manifest.beadStates || []).length > 0;
-    const [at, region, deals, bead] = await Promise.all([
+    const hasStarlink = (S.manifest.starlinkStates || []).includes(place.state);
+    const [at, region, deals, bead, sl] = await Promise.all([
       covered ? fiberAt(place.lat, place.lng) : null,
       covered ? fiberRegion(place.lat, place.lng) : null,
       contractsNear(place),
-      hasBead ? beadNear(place.lat, place.lng).catch(() => null) : null
+      hasBead ? beadNear(place.lat, place.lng).catch(() => null) : null,
+      hasStarlink ? starlinkAt(place.lat, place.lng).catch(() => null) : null
     ]);
     if (bead && (S.manifest.beadStates || []).includes(place.state)) {
       deals.items = deals.items.filter(it => it.program !== "BEAD");
@@ -747,7 +794,7 @@ async function check(q) {
     drawContracts(deals.items);
     drawFocus(place, at);
     S.map.fitBounds(L.latLng(place.lat, place.lng).toBounds(RADIUS_KM * 2000), { padding: [10, 10] });
-    render(place, covered, at, region, deals, bead);
+    render(place, covered, at, region, deals, bead, sl);
     const url = new URL(location.href);
     url.searchParams.set("q", q);
     history.replaceState(null, "", url);

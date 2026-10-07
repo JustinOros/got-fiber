@@ -45,6 +45,10 @@ python scripts/build_fcc.py --local path/to/folder --as-of "June 30, 2025"
 
 Please credit BroadbandExpanded if you reuse this data.
 
+## Starlink
+
+`scripts/build_starlink.py` reads the FCC low Earth orbit satellite availability files (technology code 61), keeps the rows reported by Starlink, and writes the max advertised speeds per H3 resolution 7 cell to `data/starlink/`. The page shows one line in the result saying whether Starlink reports service at the address.
+
 ## Adding contracts and bids
 
 Edit or add `data/contracts/XX.json` (XX is the state code). Pushing a change refreshes the manifest automatically.

@@ -1,0 +1,86 @@
+name: Update fiber data
+
+on:
+  workflow_dispatch:
+    inputs:
+      states:
+        description: "Comma separated state codes like AZ,NM, or ALL. Blank uses the STATES variable."
+        required: false
+        default: ""
+  schedule:
+    - cron: "17 9 5 * *"
+  push:
+    branches: [main]
+    paths:
+      - "data/contracts/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build
+        env:
+          FCC_USERNAME: ${{ secrets.FCC_USERNAME }}
+          FCC_API_TOKEN: ${{ secrets.FCC_API_TOKEN }}
+          STATES: ${{ github.event.inputs.states || vars.STATES || 'AZ' }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "push" ]; then
+            python scripts/build_fcc.py --manifest-only
+          else
+            python scripts/build_fcc.py --states "$STATES"
+          fi
+
+      - name: Build BEAD project areas
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          FCC_USERNAME: ${{ secrets.FCC_USERNAME }}
+          FCC_API_TOKEN: ${{ secrets.FCC_API_TOKEN }}
+          STATES: ${{ github.event.inputs.states || vars.STATES || 'AZ' }}
+        run: python scripts/build_bead.py --states "$STATES"
+
+      - name: Build Starlink availability
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          FCC_USERNAME: ${{ secrets.FCC_USERNAME }}
+          FCC_API_TOKEN: ${{ secrets.FCC_API_TOKEN }}
+          STATES: ${{ github.event.inputs.states || vars.STATES || 'AZ' }}
+        run: python scripts/build_starlink.py --states "$STATES"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Update fiber data"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase -X theirs origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 10))
+          done
+          exit 1
