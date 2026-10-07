@@ -1,7 +1,9 @@
 {
-  "generated": "2026-10-07T19:22:07Z",
-  "asOf": null,
-  "states": [],
+  "generated": "2026-10-07T19:35:24Z",
+  "asOf": "2025-12-31",
+  "states": [
+    "AZ"
+  ],
   "contractStates": [
     "AZ"
   ],
