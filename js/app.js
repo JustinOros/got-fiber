@@ -1,6 +1,7 @@
 const RADIUS_KM = 80.4672;
 const KM_PER_MI = 1.609344;
-const COLORS = { strand: "#0A8F99", jacket: "#F0B400", ink: "#17212B", contract: "#A23B72" };
+let COLORS = { strand: "#0A8F99", jacket: "#F0B400", ink: "#17212B", contract: "#A23B72" };
+const DARK_QUERY = window.matchMedia("(prefers-color-scheme: dark)");
 const STATUS = {
   open: "Open for bids",
   proposed: "Proposed",
@@ -89,32 +90,106 @@ function geomDistanceKm(geom, latlng) {
   return best;
 }
 
+function cssVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+function savedTheme() {
+  try {
+    const t = localStorage.getItem("theme");
+    return t === "dark" || t === "light" ? t : null;
+  } catch {
+    return null;
+  }
+}
+
+function currentTheme() {
+  return savedTheme() || S.themeOverride || (DARK_QUERY.matches ? "dark" : "light");
+}
+
+function refreshColors() {
+  COLORS = {
+    strand: cssVar("--strand") || COLORS.strand,
+    jacket: cssVar("--jacket") || COLORS.jacket,
+    ink: cssVar("--ink") || COLORS.ink,
+    contract: cssVar("--contract") || COLORS.contract
+  };
+}
+
+function setTiles() {
+  const dark = currentTheme() === "dark";
+  const shade = dark ? "Dark" : "Light";
+  const esri = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
+  if (S.tiles) S.tiles.forEach(t => S.map.removeLayer(t));
+  S.tiles = [
+    L.tileLayer(esri + `World_${shade}_Gray_Base/MapServer/tile/{z}/{y}/{x}`, {
+      maxZoom: 16,
+      attribution: "Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors"
+    }),
+    L.tileLayer(esri + `World_${shade}_Gray_Reference/MapServer/tile/{z}/{y}/{x}`, { maxZoom: 16, pane: "labels" })
+  ];
+  S.tiles.forEach(t => t.addTo(S.map));
+}
+
+function renderLegend() {
+  if (!S.legendEl) return;
+  S.legendEl.innerHTML =
+    `<div><i style="background:${COLORS.strand};opacity:.55"></i>Fiber reported</div>` +
+    `<div><i style="background:${COLORS.contract};opacity:.55"></i>Contract or bid area</div>` +
+    `<div><i style="border:2px dashed ${COLORS.ink}"></i>50 miles</div>`;
+}
+
+function updateToggle() {
+  const btn = $("theme");
+  if (!btn) return;
+  const dark = currentTheme() === "dark";
+  btn.textContent = dark ? "Light mode" : "Dark mode";
+  btn.setAttribute("aria-pressed", String(dark));
+}
+
+function applyTheme() {
+  const saved = savedTheme() || S.themeOverride;
+  if (saved) document.documentElement.dataset.theme = saved;
+  else delete document.documentElement.dataset.theme;
+  refreshColors();
+  setTiles();
+  renderLegend();
+  updateToggle();
+  if (S.last) {
+    const { place, at, region, bead, deals } = S.last;
+    drawRegion(region, bead);
+    drawContracts(deals.items);
+    drawFocus(place, at);
+  }
+}
+
+function toggleTheme() {
+  const next = currentTheme() === "dark" ? "light" : "dark";
+  S.themeOverride = next;
+  try {
+    localStorage.setItem("theme", next);
+  } catch {}
+  applyTheme();
+}
+
 function initMap() {
   const map = L.map("map", { preferCanvas: true }).setView([34.3, -111.7], 6);
-  const esri = "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/";
-  L.tileLayer(esri + "World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}", {
-    maxZoom: 16,
-    attribution: "Tiles &copy; Esri, HERE, Garmin, &copy; OpenStreetMap contributors"
-  }).addTo(map);
+  S.map = map;
   const labels = map.createPane("labels");
   labels.style.zIndex = 450;
   labels.style.pointerEvents = "none";
-  L.tileLayer(esri + "World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}", { maxZoom: 16, pane: "labels" }).addTo(map);
   S.layers.bead = L.layerGroup().addTo(map);
   S.layers.fiber = L.layerGroup().addTo(map);
   S.layers.contracts = L.layerGroup().addTo(map);
   S.layers.focus = L.layerGroup().addTo(map);
   const legend = L.control({ position: "bottomright" });
   legend.onAdd = () => {
-    const d = L.DomUtil.create("div", "legend");
-    d.innerHTML =
-      `<div><i style="background:${COLORS.strand};opacity:.55"></i>Fiber reported</div>` +
-      `<div><i style="background:${COLORS.contract};opacity:.55"></i>Contract or bid area</div>` +
-      `<div><i style="border:2px dashed ${COLORS.ink}"></i>50 miles</div>`;
-    return d;
+    S.legendEl = L.DomUtil.create("div", "legend");
+    renderLegend();
+    return S.legendEl;
   };
   legend.addTo(map);
-  S.map = map;
+  applyTheme();
 }
 
 async function geocodeEsri(q) {
@@ -667,6 +742,7 @@ async function check(q) {
     if (bead && (S.manifest.beadStates || []).includes(place.state)) {
       deals.items = deals.items.filter(it => it.program !== "BEAD");
     }
+    S.last = { place, at, region, bead, deals };
     drawRegion(region, bead);
     drawContracts(deals.items);
     drawFocus(place, at);
@@ -684,7 +760,10 @@ async function check(q) {
 }
 
 async function main() {
+  refreshColors();
   initMap();
+  $("theme").addEventListener("click", toggleTheme);
+  DARK_QUERY.addEventListener("change", () => { if (!savedTheme() && !S.themeOverride) applyTheme(); });
   S.manifest = (await getJSON("data/manifest.json")) || { states: [], contractStates: [], fineRes: 8, fineShardRes: 5, coarseRes: 6, coarseShardRes: 3 };
   renderMeta();
   $("search").addEventListener("submit", e => {
