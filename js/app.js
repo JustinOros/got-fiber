@@ -20,8 +20,7 @@ const S = {
   contracts: new Map(),
   beadFine: new Map(),
   beadCoarse: new Map(),
-  beadProjects: new Map(),
-  search: 0
+  beadProjects: new Map()
 };
 
 const $ = id => document.getElementById(id);
@@ -387,37 +386,6 @@ function drawContracts(items) {
   }
 }
 
-async function countyShape(lat, lng) {
-  const url = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1/query?" + new URLSearchParams({
-    geometry: `${lng},${lat}`,
-    geometryType: "esriGeometryPoint",
-    inSR: "4326",
-    spatialRel: "esriSpatialRelIntersects",
-    outFields: "NAME",
-    returnGeometry: "true",
-    outSR: "4326",
-    maxAllowableOffset: "0.002",
-    f: "geojson"
-  });
-  try {
-    const r = await fetch(url);
-    if (!r.ok) return null;
-    const d = await r.json();
-    const f = (d.features || [])[0];
-    return f && f.geometry ? f : null;
-  } catch {
-    return null;
-  }
-}
-
-function drawCounty(feature, items) {
-  const color = items.some(it => it.status === "open") ? COLORS.jacket : COLORS.contract;
-  L.geoJSON(feature, {
-    interactive: false,
-    style: { color, weight: 2, dashArray: "5 5", fillColor: color, fillOpacity: 0.08 }
-  }).addTo(S.layers.contracts);
-}
-
 function verdictFor(place, covered, at, region) {
   if (!covered) {
     const list = S.manifest.states.length ? S.manifest.states.join(", ") : "no states yet";
@@ -679,7 +647,6 @@ function renderMeta() {
 }
 
 async function check(q) {
-  const token = ++S.search;
   const btn = $("go");
   btn.disabled = true;
   btn.textContent = "Checking...";
@@ -702,12 +669,6 @@ async function check(q) {
     }
     drawRegion(region, bead);
     drawContracts(deals.items);
-    const countyItems = deals.items.filter(it => !it.geometry && place.county && it.where === `${place.county} County`);
-    if (countyItems.length) {
-      countyShape(place.lat, place.lng).then(f => {
-        if (f && token === S.search) drawCounty(f, countyItems);
-      });
-    }
     drawFocus(place, at);
     S.map.fitBounds(L.latLng(place.lat, place.lng).toBounds(RADIUS_KM * 2000), { padding: [10, 10] });
     render(place, covered, at, region, deals, bead);
