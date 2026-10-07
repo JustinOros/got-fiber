@@ -76,12 +76,12 @@ def api_download(path, user, token, dest):
             time.sleep(15 * (attempt + 1))
 
 
-def latest_as_of(user, token):
+def as_of_dates(user, token):
     d = api_json("/listAsOfDates", user, token)
-    dates = sorted(x["as_of_date"][:10] for x in d.get("data", []) if x.get("data_type") == "availability")
+    dates = sorted({x["as_of_date"][:10] for x in d.get("data", []) if x.get("data_type") == "availability"}, reverse=True)
     if not dates:
         sys.exit("FCC API returned no availability dates. Check FCC_USERNAME and FCC_API_TOKEN.")
-    return dates[-1]
+    return dates
 
 
 def fiber_files(as_of, fips_wanted, user, token):
@@ -94,7 +94,8 @@ def fiber_files(as_of, fips_wanted, user, token):
             continue
         if (f.get("category") or "State") != "State":
             continue
-        if "fixed" not in (f.get("subcategory") or "fixed").lower():
+        kind = f"{f.get('technology_type') or ''} {f.get('subcategory') or ''}".lower()
+        if "mobile" in kind:
             continue
         tech = str(f.get("technology_code") or "").strip()
         name = (f.get("file_name") or "").lower()
@@ -104,8 +105,9 @@ def fiber_files(as_of, fips_wanted, user, token):
             continue
         out[fips].append(f)
     if not out and rows:
-        log("No fiber files matched. Sample entries from the FCC listing:")
-        for f in rows[:5]:
+        sample = [f for f in rows if str(f.get("state_fips") or "").zfill(2) in fips_wanted and "mobile" not in str(f.get("technology_type") or "").lower()] or rows
+        log(f"No fiber files matched for {as_of}. Sample entries from the FCC listing:")
+        for f in sample[:8]:
             log("  " + json.dumps(f))
     return out
 
@@ -251,10 +253,16 @@ def run_api(states):
     token = os.environ.get("FCC_API_TOKEN", "").strip()
     if not user or not token:
         sys.exit("Set FCC_USERNAME and FCC_API_TOKEN.")
-    as_of = latest_as_of(user, token)
-    log(f"Latest FCC availability data: {as_of}")
     wanted = {FIPS[s] for s in states}
-    files = fiber_files(as_of, wanted, user, token)
+    files, as_of = {}, None
+    for as_of in as_of_dates(user, token)[:4]:
+        log(f"Checking FCC availability data: {as_of}")
+        files = fiber_files(as_of, wanted, user, token)
+        if files:
+            break
+    if not files:
+        sys.exit("No fiber files found in the latest FCC data releases.")
+    log(f"Using FCC availability data: {as_of}")
     missing = sorted(USPS[f] for f in wanted if f not in files)
     if missing:
         log(f"No fiber file listed for: {', '.join(missing)}")
