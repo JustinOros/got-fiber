@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-07T22:55:12Z",
-  "asOf": "2025-12-31",
+  "generated": "2026-11-05T17:35:11Z",
+  "asOf": "2026-06-30",
   "states": [
     "AK",
     "AL",
@@ -169,7 +169,7 @@
   ],
   "beadAsOf": "2026-08-27",
   "beadSource": "https://broadbandexpanded.com/funding/beadfinalproposaldata",
-  "beadGenerated": "2026-10-07T23:21:33Z",
+  "beadGenerated": "2026-11-05T18:08:47Z",
   "starlinkStates": [
     "AK",
     "AL",
@@ -224,8 +224,8 @@
     "WV",
     "WY"
   ],
-  "starlinkAsOf": "2025-12-31",
+  "starlinkAsOf": "2026-06-30",
   "starlinkRes": 7,
   "starlinkShardRes": 4,
-  "starlinkGenerated": "2026-10-07T23:27:04Z"
+  "starlinkGenerated": "2026-11-05T18:16:14Z"
 }
